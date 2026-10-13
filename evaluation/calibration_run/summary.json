@@ -1,0 +1,32 @@
+{
+  "all": {
+    "cases": 37,
+    "matches": 35,
+    "false_accepts": 2,
+    "false_rejects": 0,
+    "unknown": 0
+  },
+  "real_post_challenge": {
+    "cases": 5,
+    "matches": 4,
+    "false_accepts": 1,
+    "false_rejects": 0,
+    "unknown": 0
+  },
+  "sanity": {
+    "cases": 16,
+    "matches": 16,
+    "false_accepts": 0,
+    "false_rejects": 0,
+    "unknown": 0
+  },
+  "validation": {
+    "cases": 16,
+    "matches": 15,
+    "false_accepts": 1,
+    "false_rejects": 0,
+    "unknown": 0
+  },
+  "automatic_acceptance_enabled": false,
+  "policy": "Advisory verdicts only; supported=True is not proof. Source audit remains authoritative."
+}

@@ -1,0 +1,12 @@
+{
+  "alias": "qwen3_4b",
+  "model": "unsloth/Qwen3-4B-Instruct-2507-bnb-4bit",
+  "revision": "f12db89cd5156e090618dded9b4367f23f8f3b33",
+  "weight_files": [
+    {
+      "name": "model.safetensors",
+      "size": 2653133894,
+      "sha256": "f632ab95da1d8f307237094aca7c7dfa9e416b6d2f87bdd8ecda6dadfedb204d"
+    }
+  ]
+}

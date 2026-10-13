@@ -1,0 +1,32 @@
+{
+  "final_holdout/base": {
+    "cases": 16,
+    "approved": 16,
+    "rejected": 0,
+    "unknown": 0
+  },
+  "final_holdout/solution": {
+    "cases": 16,
+    "approved": 16,
+    "rejected": 0,
+    "unknown": 0
+  },
+  "final_outputs/solution": {
+    "cases": 10,
+    "approved": 10,
+    "rejected": 0,
+    "unknown": 0
+  },
+  "generation_first_attempts/solution": {
+    "cases": 10,
+    "approved": 10,
+    "rejected": 0,
+    "unknown": 0
+  },
+  "naive/naive": {
+    "cases": 3,
+    "approved": 2,
+    "rejected": 1,
+    "unknown": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "qwen25_1_5b_grounded_v4": {
+    "cases": 24,
+    "approved": 19,
+    "rejected": 5,
+    "unknown": 0
+  },
+  "qwen25_3b_grounded_v4": {
+    "cases": 24,
+    "approved": 20,
+    "rejected": 4,
+    "unknown": 0
+  },
+  "qwen25_7b_grounded_v4": {
+    "cases": 24,
+    "approved": 23,
+    "rejected": 1,
+    "unknown": 0
+  },
+  "qwen3_4b_grounded_v4": {
+    "cases": 24,
+    "approved": 23,
+    "rejected": 1,
+    "unknown": 0
+  },
+  "qwen3_8b_grounded_v4": {
+    "cases": 10,
+    "approved": 10,
+    "rejected": 0,
+    "unknown": 0
+  }
+}

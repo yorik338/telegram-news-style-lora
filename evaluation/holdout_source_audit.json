@@ -1,0 +1,26 @@
+{
+  "origin": "Codex AI semantic source comparison; no independent human validation",
+  "split": "final_holdout",
+  "posts_read": 32,
+  "feedback_or_training_from_holdout": false,
+  "counts_are_exhaustive": false,
+  "findings": [
+    {"id":"final_01","style":1,"variant":"base","critical":true,"response_quote":"С 7 июля","source_quote":"с июля","reason":"Добавлен точный день 7 июля, которого источник не задаёт."},
+    {"id":"final_03","style":2,"variant":"base","critical":true,"response_quote":"удвоить компенсацию","source_quote":"могут увеличить до 20% цены билета","reason":"Удвоение предполагает исходную ставку 10%, которая не названа. Кроме того, неназванное министерство заменено Минтрансом."},
+    {"id":"final_04","style":1,"variant":"base","critical":true,"response_quote":"сократить теплопотери до 8%","source_quote":"сократить расход тепла до 8%","reason":"Расход тепла и теплопотери — разные физические показатели."},
+    {"id":"final_05","style":1,"variant":"base","critical":true,"response_quote":"прекратила проведение платных анализов","source_quote":"закрыла запись на платные анализы","reason":"Закрытие новой записи заменено прекращением исследований; ранее направленные пациенты продолжают приниматься."},
+    {"id":"final_03","style":1,"variant":"solution","critical":true,"response_quote":"Минтранс предлагает","source_quote":"Министерство опубликовало проект правил","reason":"Названо конкретное министерство, хотя источник его не идентифицирует."},
+    {"id":"final_03","style":2,"variant":"solution","critical":true,"response_quote":"удвоить компенсацию","source_quote":"могут увеличить до 20% цены билета","reason":"Исходная ставка не дана, поэтому удвоение не следует из источника. Также добавлен Минтранс."},
+    {"id":"final_04","style":1,"variant":"solution","critical":true,"response_quote":"сократит расходы на тепло до 8%","source_quote":"может сократить расход тепла до 8%","reason":"Прогноз о физическом потреблении тепла превращён в прогноз о денежных расходах; тариф и экономия денег не заданы."},
+    {"id":"final_04","style":2,"variant":"solution","critical":true,"response_quote":"снизит расходы на тепло до 8%","source_quote":"может сократить расход тепла до 8%","reason":"Изменён измеряемый показатель: потребление тепла заменено расходами на него."},
+    {"id":"final_06","style":1,"variant":"solution","critical":true,"response_quote":"средняя цена аренды комнаты выросла","source_quote":"медианная цена комнаты","reason":"Медиана заменена средней величиной; рост также не подтверждён данными о динамике."},
+    {"id":"final_06","style":2,"variant":"solution","critical":true,"response_quote":"За год стоимость не изменилась.","source_quote":"сервис не сообщил изменение цены за год","reason":"Отсутствие сообщения об изменении превращено в утверждение об отсутствии изменения."},
+    {"id":"final_07","style":1,"variant":"solution","critical":true,"response_quote":"Работы не запланированы","source_quote":"Работы ещё не начались","reason":"Неначатые работы могут быть запланированы; источник не подтверждает отсутствие плана."}
+  ],
+  "ambiguous_examples": [
+    {"id":"final_01","style":1,"variant":"solution","reason":"В сжатом изложении тарифов не повторена единица руб./м³ и месячный период; это ухудшает ясность. Дата 1 июля не отмечена как доказанная критическая ошибка: «с июля» может означать начало месяца."},
+    {"id":"final_08","style":2,"variant":"solution","reason":"«Поминутную оплату можно оставить» создаёт неоднозначность об обязательности оплаты; источник говорит, что она сохраняется."}
+  ],
+  "documented_critical_posts_lower_bound": {"base":4,"solution":7},
+  "conclusion":"Validation loss decreased, but isolated LoRA factual improvement is not demonstrated on the held-out sources. Holdout was not repaired or used to retune the checkpoint."
+}

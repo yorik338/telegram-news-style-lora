@@ -1,0 +1,6 @@
+models: []
+lowest_temperature: 0.0
+rails:
+  output:
+    flows:
+      - self check facts

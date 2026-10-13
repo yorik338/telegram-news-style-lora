@@ -1,0 +1,15 @@
+{
+  "curator_kind": "AI-assisted editor",
+  "event_groups_checked": true,
+  "split": "first 20/style excluding two reserved prompt demos train, last 5/style validation; related events grouped",
+  "files": {
+    "train.jsonl": {
+      "rows": 38,
+      "sha256": "7365374594e37a2fdafa8027eca5e3ce51064c9459307cd6cd07957178f78ae5"
+    },
+    "validation.jsonl": {
+      "rows": 10,
+      "sha256": "6831286fd6ae0b2a03aed4a4414ff477c44ffd12a1ee3c76962eabbdfd41f6da"
+    }
+  }
+}

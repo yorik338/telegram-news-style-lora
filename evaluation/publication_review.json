@@ -1,0 +1,12 @@
+{
+  "origin": "Codex AI editor comparing the generated text with S1; not independent human review",
+  "edited_posts": 9,
+  "individual_edits": 23,
+  "all_posts_reviewed": true,
+  "raw_model_outputs_preserved": true,
+  "final_files_are_editorially_reviewed": true,
+  "fully_automatic_factual_guarantee": false,
+  "checkpoint_changed": false,
+  "holdout_edited": false,
+  "final_outputs_sha256": "5fd68e2149c74026131a090ce1e1ed01ebfff5372294ae2d380426a6dd2a1b65"
+}

@@ -1,0 +1,20 @@
+{
+  "cases": 106,
+  "calibration": "nemo-qwen14b-calibrated-v2",
+  "temperature": 0.6,
+  "max_tokens": 8,
+  "grammar": "root ::= \"yes\" | \"no\"",
+  "source_files": {
+    "generations\\qwen25_1_5b_grounded_v4\\posts.jsonl": "7376ff4f75de2b0c776b0e0b78f62b382ef9bc69acfcb8dd22215f204d8d909f",
+    "generations\\qwen25_3b_grounded_v4\\posts.jsonl": "8787c5d1b55455ed18c074cc363a220892af7425d81f4a120df77a1055707ba7",
+    "generations\\qwen25_7b_grounded_v4\\posts.jsonl": "7c93d5650bb1834f631a35748a3cd053483ae252c028658c83bda50893e865a2",
+    "generations\\qwen3_4b_grounded_v4\\posts.jsonl": "d42975d66c5a13455d3b1769dff706f503131249082e29b5866b4bc74507408d",
+    "generations\\qwen3_8b_grounded_v4\\posts.jsonl": "634a3efdff687f16feac9869d8878c588488801d22c99d5b660f08e6a31d2c14"
+  },
+  "config_hashes": {
+    "config.yml": "945848e0562965134286513f7be961b4791e9a800fd03094e67a54f11ee8289b",
+    "prompts.yml": "d2c134e9e6dde9e6c7d70f5882f24af657ca4bb5a4d91f5aa678ffc6d66e62a2"
+  },
+  "script_sha256": "802f6af5f404b511e46e49dc7bf3f013c10c8353b3ea065ef514c662a2c4f9bb",
+  "semantic_accuracy_claimed": false
+}

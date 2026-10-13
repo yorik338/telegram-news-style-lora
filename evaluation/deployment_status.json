@@ -1,0 +1,8 @@
+{
+  "actual_gpu": "RTX 3070 Ti Laptop 8 GiB",
+  "vllm_24gib_started": false,
+  "concurrent_15_http_test_executed": false,
+  "load_preflight_only": true,
+  "wsl_ubuntu_installed": false,
+  "checkpoint_reloaded_and_inference_executed": true
+}

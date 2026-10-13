@@ -1,0 +1,22 @@
+{
+  "status": "analytic estimate, not measured 24GiB deployment",
+  "layers": 36,
+  "kv_heads": 8,
+  "head_dim": 128,
+  "kv_dtype": "FP16",
+  "kv_bytes_per_token": 147456,
+  "kv_gib_per_request": 0.5625,
+  "kv_gib_total": 8.4375,
+  "physical_gib": 24,
+  "other_process_gib": 0,
+  "external_reserve_gib": 2,
+  "gpu_memory_utilization": 0.85,
+  "model_executor_budget_gib": 20.4,
+  "assumed_model_runtime_gib": 5.5,
+  "required_runtime_profiling": true,
+  "available_kv_gib": 14.899999999999999,
+  "estimated_kv_capacity_tokens": 108498,
+  "required_kv_capacity_tokens": 61440,
+  "estimated_fits": true,
+  "note": "model_runtime_gib is a placeholder for measured weights+LoRA+activation/workspace; replace it with actual profiling"
+}

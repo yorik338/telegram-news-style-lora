@@ -1,0 +1,12 @@
+test_checkpoint_is_trained_and_finite (__main__.SubmissionChecks.test_checkpoint_is_trained_and_finite) ... ok
+test_data_separation_and_hashes (__main__.SubmissionChecks.test_data_separation_and_hashes) ... ok
+test_every_provided_source_has_two_traceable_outputs (__main__.SubmissionChecks.test_every_provided_source_has_two_traceable_outputs) ... ok
+test_frozen_generation_inputs_and_snapshots (__main__.SubmissionChecks.test_frozen_generation_inputs_and_snapshots) ... ok
+test_gqa_memory_and_capacity_boundaries (__main__.SubmissionChecks.test_gqa_memory_and_capacity_boundaries) ... ok
+test_negative_holdout_audit_matches_preserved_quotes (__main__.SubmissionChecks.test_negative_holdout_audit_matches_preserved_quotes) ... ok
+test_source_not_conflated_with_style_demo (__main__.SubmissionChecks.test_source_not_conflated_with_style_demo) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.662s
+
+OK

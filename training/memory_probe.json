@@ -1,0 +1,9 @@
+{
+  "seconds": 2.88156979996711,
+  "loss": 1.475643515586853,
+  "tokens": 1172,
+  "peak_allocated_bytes": 5082036224,
+  "peak_reserved_bytes": 5626658816,
+  "loss_equivalence_abs_difference": 1.1920928955078125e-07,
+  "probe_update_discarded": true
+}

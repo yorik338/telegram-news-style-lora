@@ -1,0 +1,29 @@
+{
+  "authorization": "user_explicit_relative_winner_then_finetune",
+  "user_instruction": "так сначала откалибруй судью, времени у нас больше нету, так что самого лучшего кандидата бери и дообучай",
+  "winner": "qwen3_4b",
+  "model": "unsloth/Qwen3-4B-Instruct-2507-bnb-4bit",
+  "revision": "f12db89cd5156e090618dded9b4367f23f8f3b33",
+  "purpose": "deadline-bounded QLoRA research run",
+  "production_fact_gate_passed": false,
+  "calibration": "evaluation/calibration_run/summary.json",
+  "calibrated_benchmark": "evaluation/selection_run/summary.json",
+  "calibration_matches": 35,
+  "calibration_cases": 37,
+  "calibration_false_accepts": 2,
+  "independent_human_validation": false,
+  "rationale": [
+    "Among fully benchmarked candidates with already available HF/NF4 training weights, calibrated NeMo approves 4B in 23/24 cases, versus 20/24 for 3B and 19/24 for 1.5B.",
+    "Source audit confirms at least two critical 4B posts, versus at least four each for 3B and 1.5B. These are documented lower bounds, not exhaustive factual precision.",
+    "7B ties at 23/24 judge approvals but fails the pool-news task and mixes Chinese into multiple answers; only GGUF inference weights are available locally.",
+    "8B has an incomplete 10/24 run, a known missed hallucination, and only GGUF inference weights locally; its 10 approvals do not establish superiority.",
+    "4B can train immediately on the existing 8 GiB GPU without a new base download. Winner is the best available training choice under the user's deadline, not a proven global optimum."
+  ],
+  "style_tie_break_required_in_ready_training_pool": false,
+  "final_holdout_used_for_selection": false,
+  "training_epochs": 1,
+  "training_status": "completed",
+  "training_artifact": "training/artifact.json",
+  "training_results": "RESULTS.md",
+  "training_data": "38 curated train pairs, 10 validation pairs"
+}

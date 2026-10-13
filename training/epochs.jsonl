@@ -1,0 +1,1 @@
+{"epoch": 1, "train_loss": 1.4418525146810632, "validation_token_loss": 1.1279435521321939, "base_validation_token_loss": 1.5657259128148204, "optimizer_steps": 10, "seconds": 107.87556440010667, "peak_allocated_bytes": 5255842816, "peak_reserved_bytes": 5628755968}

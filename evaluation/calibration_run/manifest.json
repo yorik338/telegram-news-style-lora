@@ -1,0 +1,17 @@
+{
+  "cases": 37,
+  "temperature": 0.6,
+  "max_tokens": 8,
+  "thinking": false,
+  "grammar": "root ::= \"yes\" | \"no\"",
+  "tool": "NeMo self_check_facts",
+  "model": "Qwen3-14B-Q4_K_M",
+  "script_sha256": "64dbeba4b473ff839267506a9965c2a3f284828b8a60e4b3614e8b55182e0816",
+  "config_hashes": {
+    "config.yml": "945848e0562965134286513f7be961b4791e9a800fd03094e67a54f11ee8289b",
+    "prompts.yml": "d2c134e9e6dde9e6c7d70f5882f24af657ca4bb5a4d91f5aa678ffc6d66e62a2"
+  },
+  "controls_previously_inspected": true,
+  "independent_human_labels": false,
+  "note": "Prompt and decoding calibration on reused controls; not a fresh generalization test"
+}

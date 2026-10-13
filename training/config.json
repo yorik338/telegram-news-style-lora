@@ -1,0 +1,56 @@
+{
+  "winner": "qwen3_4b",
+  "base": "unsloth/Qwen3-4B-Instruct-2507-bnb-4bit",
+  "revision": "f12db89cd5156e090618dded9b4367f23f8f3b33",
+  "authorization": "user_explicit_relative_winner_then_finetune",
+  "seed": 42,
+  "epochs": 1,
+  "micro_batch": 1,
+  "gradient_accumulation": 4,
+  "lr": 0.0001,
+  "weight_decay": 0.01,
+  "warmup_steps": 1,
+  "rank": 8,
+  "alpha": 16,
+  "dropout": 0.05,
+  "gradient_checkpointing": true,
+  "compute": "FP16",
+  "loss": "every assistant token only",
+  "logits_memory_optimization": "Qwen3 logits_to_keep; verified equivalent to masked full-token loss",
+  "train_rows": 38,
+  "validation_rows": 10,
+  "max_actual_tokens": 1172,
+  "trainable_parameters": 16515072,
+  "checkpoint_selection": "minimum validation token loss",
+  "final_holdout_opened": false,
+  "smoke_ids": [
+    "type1_20",
+    "type2_20",
+    "type2_24"
+  ],
+  "script_sha256": "25a0a6bb399c43332444569a74a3e27fb1e3d5bdb666a6c2490b076a15042302",
+  "prompt_script_sha256": "4a1820fc38b04585425a6577039f4fd82bed625dcaa64c38bfcb66579bf60a18",
+  "data_hashes": {
+    "train.jsonl": {
+      "rows": 38,
+      "sha256": "7365374594e37a2fdafa8027eca5e3ce51064c9459307cd6cd07957178f78ae5"
+    },
+    "validation.jsonl": {
+      "rows": 10,
+      "sha256": "6831286fd6ae0b2a03aed4a4414ff477c44ffd12a1ee3c76962eabbdfd41f6da"
+    }
+  },
+  "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+  "torch": "2.6.0+cu124",
+  "cuda": "12.4",
+  "transformers": "4.57.1",
+  "peft": "0.17.1",
+  "bitsandbytes": "0.48.1",
+  "base_weight_files": [
+    {
+      "name": "model.safetensors",
+      "size": 2653133894,
+      "sha256": "f632ab95da1d8f307237094aca7c7dfa9e416b6d2f87bdd8ecda6dadfedb204d"
+    }
+  ]
+}

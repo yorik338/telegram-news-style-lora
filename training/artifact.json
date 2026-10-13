@@ -1,0 +1,12 @@
+{
+  "path": "adapter/adapter_model.safetensors",
+  "size_bytes": 66126768,
+  "sha256": "2418772af9dd6d636fe5c6797d213301e89fbed975c6081406b3a8de0402eeea",
+  "trained": true,
+  "base_validation_token_loss": 1.5657259128148204,
+  "best_validation_token_loss": 1.1279435521321939,
+  "optimizer_steps": 10,
+  "lora_b_max_abs": 0.0005050495965406299,
+  "independent_quality_improvement_proven": false,
+  "final_holdout_opened": false
+}

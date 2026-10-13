@@ -1,0 +1,35 @@
+{
+  "started_utc": "2026-10-13T15:04:05.500655+00:00",
+  "base": "unsloth/Qwen3-4B-Instruct-2507-bnb-4bit",
+  "revision": "f12db89cd5156e090618dded9b4367f23f8f3b33",
+  "adapter_sha256": "2418772af9dd6d636fe5c6797d213301e89fbed975c6081406b3a8de0402eeea",
+  "prompt_sha256": "34e7986a21f2c22c9529e6041809ddc45b6ae9a21dc6da152d7feed113b30356",
+  "script_sha256": "b36e434cbaacc08cbf7e9cf5c0897a8ac87b6d103ff95f54f643d17b402116fc",
+  "pipeline_sha256": "ad20ed6bfe69da66fd63eabedee4d9f3732abde13ffd4a7c421ee315c492f042",
+  "test_inputs_sha256": "2e7449ffc35d7e411abd0d4c9cdf4d20a64b0d82d93fad5b64c5698e421aeea0",
+  "decoding": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "repetition_penalty": 1,
+    "seed": 42,
+    "max_new_tokens": 512
+  },
+  "attempts_per_primary_case": 1,
+  "naive_comparison_cases": [
+    [
+      1,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      1
+    ]
+  ],
+  "holdout_checkpoint_and_prompt_frozen_before_read": true,
+  "holdout_used_for_tuning": false
+}

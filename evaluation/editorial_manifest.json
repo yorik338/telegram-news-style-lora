@@ -1,0 +1,9 @@
+{
+  "attempts_per_post": 2,
+  "feedback_origin": "Codex semantic editorial review",
+  "all_posts_regenerated": true,
+  "manual_text_edits": false,
+  "first_attempts_sha256": "5138b5af4078a8b2aa720a3e9411fd0529f7bc2fffa9cbb08bdd26ac71f16b73",
+  "feedback_sha256": "4ef9ccebf39a2963f06b49b3b128d9c106ae6754095585540b841eccdd518f24",
+  "holdout_untouched": true
+}
