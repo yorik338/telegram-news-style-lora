@@ -1,0 +1,18 @@
+{
+  "frozen_utc": "2026-10-14T15:18:06.510701+00:00",
+  "fresh_regression_sha256": "673e7b4126dd76da49347911ceea13841fcd45452e7d163d2a8a73ddb5243883",
+  "comparison": "same pinned base, same v2 prompt, greedy decoding, base vs reloaded v2 adapter",
+  "test_sources": 5,
+  "test_styles": 2,
+  "fresh_synthetic_sources": 6,
+  "fresh_set_origin": "AI-created new sources targeting previously observed error types; not an external independent benchmark",
+  "primary_fact_gate": "No documented critical source contradiction on provided test outputs; false judge approvals do not count as proof",
+  "style_primary": "shuffled blind A/B page for human assessment; no human votes fabricated",
+  "secondary_metrics": [
+    "8-gram training overlap",
+    "output word length",
+    "format diagnostics"
+  ],
+  "no_editorial_output_edits": true,
+  "no_holdout_feedback_or_retuning": true
+}

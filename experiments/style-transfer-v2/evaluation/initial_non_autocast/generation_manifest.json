@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-10-14T15:45:05.191539+00:00",
+  "adapter_sha256": "5aa2b30f9bb94ce1c9c70f1947d9c405a3d36b6034edf254c301dc68ad1c2e7c",
+  "common_sha256": "968a3c3df2fc46ecb067340a336d06277ea95dffcc5539ff48f21e2350c94e9a",
+  "demo_sha256": "4d37e136a5932731c1fda60696933b6b446b6c9f0a3beaf52e4a54308b585577",
+  "provided_test_sha256": "2e7449ffc35d7e411abd0d4c9cdf4d20a64b0d82d93fad5b64c5698e421aeea0",
+  "fresh_regression_sha256": "673e7b4126dd76da49347911ceea13841fcd45452e7d163d2a8a73ddb5243883",
+  "script_sha256": "b5e957adf3ef397a68ad6bee80abe384cea96478d3c88b1f208a0d1f12860162",
+  "decoding": "greedy, repetition_penalty=1, max_new_tokens=384",
+  "first_attempts_only": true,
+  "output_editorial_edits": false,
+  "feedback_or_retuning_from_evaluation": false,
+  "adapter_loaded_from_saved_fp16_export": true
+}

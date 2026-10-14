@@ -1,0 +1,23 @@
+{
+  "reverse_accepted": 28,
+  "reverse_total": 48,
+  "review_origin": "Codex AI semantic comparison of target and neutral text; no independent human validation",
+  "prompt_demos": 2,
+  "unique_train_groups": 35,
+  "validation_used_for_checkpoint_selection": "10 original held-out source inputs, not synthetic validation variants",
+  "files": {
+    "train.jsonl": {
+      "rows": 61,
+      "sha256": "d0df91ba3ac802db201afdaa253eb5d5e8b11447b2e604e993ed8a7461e26646"
+    },
+    "validation.jsonl": {
+      "rows": 10,
+      "sha256": "aae2357213032e3f145589179cb117b771226c7bd120e02c047c6bd80557ec83"
+    },
+    "validation_reverse.jsonl": {
+      "rows": 15,
+      "sha256": "52c69cf4626d4fa4ffa50d02865e56a1403c1db6d09d8d7061a58f95fee7dacb"
+    }
+  },
+  "synthetic_rows_are_not_independent_examples": true
+}

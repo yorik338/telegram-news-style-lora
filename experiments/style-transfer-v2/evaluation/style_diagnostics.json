@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "base": {
+      "posts": 22,
+      "truncated": 0,
+      "mean_words": 45.72727272727273,
+      "mean_training_8gram_overlap": 0.0,
+      "fact_or_style_quality_inferred_from_these_metrics": false
+    },
+    "lora_v2": {
+      "posts": 22,
+      "truncated": 0,
+      "mean_words": 64.04545454545455,
+      "mean_training_8gram_overlap": 0.0,
+      "fact_or_style_quality_inferred_from_these_metrics": false
+    }
+  },
+  "human_votes_received": 0,
+  "blind_pairs": 22,
+  "raw_responses_sha256": "1f3cc07153035c1d47962d352107a829056adceafcb74d778a1d17d61a3bcdd1",
+  "embedding_auc_omitted": "Upstream English semantic encoder is unsuitable as an unquestioned Russian style metric; human A/B remains primary"
+}

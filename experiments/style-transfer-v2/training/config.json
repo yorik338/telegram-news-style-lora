@@ -1,0 +1,80 @@
+{
+  "base": {
+    "alias": "qwen3_4b",
+    "model": "unsloth/Qwen3-4B-Instruct-2507-bnb-4bit",
+    "revision": "f12db89cd5156e090618dded9b4367f23f8f3b33",
+    "weight_files": [
+      {
+        "name": "model.safetensors",
+        "size": 2653133894,
+        "sha256": "f632ab95da1d8f307237094aca7c7dfa9e416b6d2f87bdd8ecda6dadfedb204d"
+      }
+    ]
+  },
+  "upstream": {
+    "repository": "https://github.com/karansag/style-lora",
+    "commit": "f0424031fa9c0c668997f6d3f51f8297ec3569d6",
+    "license": "MIT",
+    "files": {
+      "LICENSE": "c013188e7806e27cc46b1a8eb3ffe548806c00f5282de35e01d918fbc4c02f9b",
+      "README.md": "48d5fabf560e2ecad93414473d9a6a1bd566734bb694936decdcf0bce1f99672",
+      "scripts/build_style_pairs.py": "f52fecc7d9d7b2fa3401e63cde8964835915a70c6f4db17aedb0373904f55338",
+      "scripts/train_lora.py": "925d16f386eb263bb2cdb75933e04c31dd06759adb7e8fbc9f664d40ab12c63a",
+      "scripts/gen_samples.py": "c9d4df740707ea872393aaf7ab90f6caa46147357de7664113b71386d52da0ba",
+      "scripts/eval_style.py": "f35ca647dea77064f4040354a260a646c9b8cce3b255028dc526fee35288a039",
+      "scripts/prompts.py": "c111a77ef232c985495847cc3c5d4392215f081d762b78facd65b1241e1488c1"
+    },
+    "source_scripts_executed": false
+  },
+  "method": "reverse neutral-to-style pairs plus original-source anchors",
+  "rank": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "epochs": 2,
+  "lr": 0.0002,
+  "weight_decay": 0.01,
+  "seed": 42,
+  "scheduler": "cosine",
+  "warmup_steps": 2,
+  "micro_batch": 1,
+  "gradient_accumulation": 4,
+  "expected_steps": 32,
+  "train_rows": 61,
+  "unique_train_groups": 35,
+  "validation_rows": 10,
+  "max_actual_tokens": 871,
+  "compute": "FP16",
+  "quantization": "NF4",
+  "gradient_checkpointing": true,
+  "assistant_only_loss": true,
+  "loss_equivalence_abs_difference": 2.384185791015625e-07,
+  "trainable_parameters": 33030144,
+  "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+  "prompt_sha256": "968a3c3df2fc46ecb067340a336d06277ea95dffcc5539ff48f21e2350c94e9a",
+  "data": {
+    "reverse_accepted": 28,
+    "reverse_total": 48,
+    "review_origin": "Codex AI semantic comparison of target and neutral text; no independent human validation",
+    "prompt_demos": 2,
+    "unique_train_groups": 35,
+    "validation_used_for_checkpoint_selection": "10 original held-out source inputs, not synthetic validation variants",
+    "files": {
+      "train.jsonl": {
+        "rows": 61,
+        "sha256": "d0df91ba3ac802db201afdaa253eb5d5e8b11447b2e604e993ed8a7461e26646"
+      },
+      "validation.jsonl": {
+        "rows": 10,
+        "sha256": "aae2357213032e3f145589179cb117b771226c7bd120e02c047c6bd80557ec83"
+      },
+      "validation_reverse.jsonl": {
+        "rows": 15,
+        "sha256": "52c69cf4626d4fa4ffa50d02865e56a1403c1db6d09d8d7061a58f95fee7dacb"
+      }
+    },
+    "synthetic_rows_are_not_independent_examples": true
+  },
+  "script_sha256": "39d08dbc2f0d4a53e858799e187fdb7e11c24ca800415af8f833a814cb7b0578",
+  "inference_export_dtype": "float16; export rounding measured separately",
+  "checkpoint_selection": "minimum token-weighted validation loss; factual and style benefit require generation evaluation"
+}

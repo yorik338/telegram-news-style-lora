@@ -1,0 +1,21 @@
+{
+  "origin": "Tokenizer-format alignment diagnosed on already-viewed provided and validation cases",
+  "issue": "SFT full assistant encoding inserts a fixed empty reasoning block; generation header omitted it",
+  "fixed_prefix": "<think>\n\n</think>\n\n",
+  "fixed_prefix_ids": [
+    151667,
+    271,
+    151668,
+    271
+  ],
+  "checkpoint_unchanged": true,
+  "adapter_sha256": "5aa2b30f9bb94ce1c9c70f1947d9c405a3d36b6034edf254c301dc68ad1c2e7c",
+  "initial_records": 14,
+  "initial_responses_preserved": true,
+  "fresh_sources_generated_before_fix": false,
+  "source_or_output_editorial_changes": false,
+  "precision_diagnostic": "No tested floating-point mode alone resolved EOS first-token dominance",
+  "inference_microbatch": 2,
+  "inference_autocast": "FP16",
+  "vllm_override": "inference_chat_template.jinja"
+}

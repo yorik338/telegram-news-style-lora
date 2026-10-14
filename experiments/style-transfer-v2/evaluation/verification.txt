@@ -1,0 +1,12 @@
+test_blind_pairs_and_no_fabricated_votes (__main__.Checks.test_blind_pairs_and_no_fabricated_votes) ... ok
+test_chat_format_prefill_matches_training_content_boundary (__main__.Checks.test_chat_format_prefill_matches_training_content_boundary) ... ok
+test_dataset_group_boundaries_and_synthetic_trace (__main__.Checks.test_dataset_group_boundaries_and_synthetic_trace) ... ok
+test_evaluation_first_attempts_and_same_prompt (__main__.Checks.test_evaluation_first_attempts_and_same_prompt) ... ok
+test_semantic_audit_covers_unchanged_raw_outputs (__main__.Checks.test_semantic_audit_covers_unchanged_raw_outputs) ... ok
+test_trained_export_shape_finiteness_and_previous_adapter (__main__.Checks.test_trained_export_shape_finiteness_and_previous_adapter) ... ok
+test_upstream_license_and_exact_snapshots (__main__.Checks.test_upstream_license_and_exact_snapshots) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 6.408s
+
+OK

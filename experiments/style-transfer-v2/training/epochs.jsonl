@@ -1,0 +1,2 @@
+{"epoch": 1, "train_loss": 0.9457154581781293, "validation_token_loss": 0.7355540638596624, "base_validation_token_loss": 1.7114195758306638, "optimizer_steps": 16, "seconds": 381.8115381002426, "peak_allocated_bytes": 5379569152, "peak_reserved_bytes": 5781848064}
+{"epoch": 2, "train_loss": 0.4801571464440862, "validation_token_loss": 0.6792766504229619, "base_validation_token_loss": 1.7114195758306638, "optimizer_steps": 32, "seconds": 459.025473699905, "peak_allocated_bytes": 5406540288, "peak_reserved_bytes": 5781848064}

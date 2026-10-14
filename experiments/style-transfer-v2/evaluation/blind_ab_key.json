@@ -1,0 +1,90 @@
+[
+  {
+    "item": "fresh_regression:new_01:1",
+    "left": "lora_v2"
+  },
+  {
+    "item": "fresh_regression:new_01:2",
+    "left": "base"
+  },
+  {
+    "item": "fresh_regression:new_02:1",
+    "left": "base"
+  },
+  {
+    "item": "fresh_regression:new_02:2",
+    "left": "base"
+  },
+  {
+    "item": "fresh_regression:new_03:1",
+    "left": "lora_v2"
+  },
+  {
+    "item": "fresh_regression:new_03:2",
+    "left": "lora_v2"
+  },
+  {
+    "item": "fresh_regression:new_04:1",
+    "left": "lora_v2"
+  },
+  {
+    "item": "fresh_regression:new_04:2",
+    "left": "base"
+  },
+  {
+    "item": "fresh_regression:new_05:1",
+    "left": "base"
+  },
+  {
+    "item": "fresh_regression:new_05:2",
+    "left": "lora_v2"
+  },
+  {
+    "item": "fresh_regression:new_06:1",
+    "left": "base"
+  },
+  {
+    "item": "fresh_regression:new_06:2",
+    "left": "base"
+  },
+  {
+    "item": "provided_test:1:1",
+    "left": "base"
+  },
+  {
+    "item": "provided_test:1:2",
+    "left": "lora_v2"
+  },
+  {
+    "item": "provided_test:2:1",
+    "left": "lora_v2"
+  },
+  {
+    "item": "provided_test:2:2",
+    "left": "lora_v2"
+  },
+  {
+    "item": "provided_test:3:1",
+    "left": "base"
+  },
+  {
+    "item": "provided_test:3:2",
+    "left": "base"
+  },
+  {
+    "item": "provided_test:4:1",
+    "left": "base"
+  },
+  {
+    "item": "provided_test:4:2",
+    "left": "lora_v2"
+  },
+  {
+    "item": "provided_test:5:1",
+    "left": "lora_v2"
+  },
+  {
+    "item": "provided_test:5:2",
+    "left": "lora_v2"
+  }
+]

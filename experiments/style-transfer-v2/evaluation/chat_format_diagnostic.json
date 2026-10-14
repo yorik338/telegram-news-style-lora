@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "fixed_template_prefix": "<think>\n\n</think>\n\n",
+    "fixed_template_token_ids": [
+      151667,
+      271,
+      151668,
+      271
+    ],
+    "top": [
+      {
+        "id": 138043,
+        "text": "Центр",
+        "logit": 18.578125
+      },
+      {
+        "id": 92799,
+        "text": "Ц",
+        "logit": 14.546875
+      },
+      {
+        "id": 16206,
+        "text": "В",
+        "logit": 13.8359375
+      },
+      {
+        "id": 19311,
+        "text": "С",
+        "logit": 13.6484375
+      },
+      {
+        "id": 33995,
+        "text": "Т",
+        "logit": 13.6015625
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "fixed_template_prefix": "<think>\n\n</think>\n\n",
+    "fixed_template_token_ids": [
+      151667,
+      271,
+      151668,
+      271
+    ],
+    "top": [
+      {
+        "id": 16206,
+        "text": "В",
+        "logit": 16.421875
+      },
+      {
+        "id": 37114,
+        "text": "Г",
+        "logit": 14.1953125
+      },
+      {
+        "id": 16854,
+        "text": "П",
+        "logit": 13.75
+      },
+      {
+        "id": 19311,
+        "text": "С",
+        "logit": 12.953125
+      },
+      {
+        "id": 130801,
+        "text": "По",
+        "logit": 12.6796875
+      }
+    ]
+  },
+  {
+    "id": "type1_22_provided",
+    "fixed_template_prefix": "<think>\n\n</think>\n\n",
+    "fixed_template_token_ids": [
+      151667,
+      271,
+      151668,
+      271
+    ],
+    "top": [
+      {
+        "id": 16206,
+        "text": "В",
+        "logit": 17.078125
+      },
+      {
+        "id": 37114,
+        "text": "Г",
+        "logit": 14.8125
+      },
+      {
+        "id": 16854,
+        "text": "П",
+        "logit": 14.4921875
+      },
+      {
+        "id": 33995,
+        "text": "Т",
+        "logit": 13.2734375
+      },
+      {
+        "id": 19311,
+        "text": "С",
+        "logit": 13.1640625
+      }
+    ]
+  }
+]

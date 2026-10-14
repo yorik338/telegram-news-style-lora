@@ -1,0 +1,846 @@
+{
+  "raw_sha256": "1f3cc07153035c1d47962d352107a829056adceafcb74d778a1d17d61a3bcdd1",
+  "review_type": "AI provisional semantic review of all 44 responses against their supplied sources",
+  "externally_verified_truth": false,
+  "independent_human_review": false,
+  "counts_are_exhaustive_guarantee": false,
+  "rubric": "Material source contradictions including headings; omissions tracked separately. Ambiguous wording and minor tense issues are also recorded. Counts are provisional, not a calibrated judge score.",
+  "summary": {
+    "provided_test": {
+      "base": {
+        "posts": 10,
+        "critical_posts": 8,
+        "coverage_concerns": 9,
+        "warning_posts": 5
+      },
+      "lora_v2": {
+        "posts": 10,
+        "critical_posts": 4,
+        "coverage_concerns": 3,
+        "warning_posts": 3
+      }
+    },
+    "fresh_regression": {
+      "base": {
+        "posts": 12,
+        "critical_posts": 2,
+        "coverage_concerns": 2,
+        "warning_posts": 6
+      },
+      "lora_v2": {
+        "posts": 12,
+        "critical_posts": 1,
+        "coverage_concerns": 2,
+        "warning_posts": 5
+      }
+    }
+  },
+  "decisions": [
+    {
+      "id": 1,
+      "split": "provided_test",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "4fa97a442030de0f468c11dac094e3f15db381956af097f334be3fe1e95629a6",
+      "response_sha256": "a7ba15d948f4bead079e89ab564abb2c8648b959d89fba494317d695eb145bd0",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Merchant future tariff is presented as current; third form of national currency is abbreviated."
+      ],
+      "coverage_concerns": [
+        "Explicit pilot scope and equal national-currency status are abbreviated."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 1,
+      "split": "provided_test",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "4fa97a442030de0f468c11dac094e3f15db381956af097f334be3fe1e95629a6",
+      "response_sha256": "18c49fe40185a8db8ed5f39123d7094d1ba0d7f7f7718613038aa4fb6985947e",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Pilot scope in heading is broad, clarified by body; merchant future tariff is presented as current."
+      ],
+      "coverage_concerns": [
+        "Equal national-currency status is abbreviated."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 1,
+      "split": "provided_test",
+      "style": 1,
+      "variant": "lora_v2",
+      "source_sha256": "4fa97a442030de0f468c11dac094e3f15db381956af097f334be3fe1e95629a6",
+      "response_sha256": "c3dfdd539733daf1a4f68b03b10d38f7b2f5c741771bea18e4aa5a74b518ace1",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Implemented QR payments become present ongoing implementation (реализуют)."
+      ],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 1,
+      "split": "provided_test",
+      "style": 2,
+      "variant": "lora_v2",
+      "source_sha256": "4fa97a442030de0f468c11dac094e3f15db381956af097f334be3fe1e95629a6",
+      "response_sha256": "038517f2dfe3f4bb94207e624c1526bf5b1bca321f370bace36e2700c6655099",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 2,
+      "split": "provided_test",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "c9b89250b3f1c4feb86346c334c1ed8ae75d59ce70fcf8ef32651bef22b1fe4b",
+      "response_sha256": "bf2e1cf829156d842136127dc7817a61c1f7122cc69bf3d58cc952101dceb756",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "после покупки",
+          "reason": "Source says acquisition; purchase excludes adopted or gifted pets."
+        },
+        {
+          "severity": "critical",
+          "quote": "владельцы собак и кошек будут обязаны",
+          "reason": "A proposed obligation is stated as certain; source describes a bill."
+        }
+      ],
+      "warnings": [
+        "Ecological fee is not named; shelter funding could be misread as fine revenue."
+      ],
+      "coverage_concerns": [
+        "Ecological owner fee, lawmakers rationale, and shelter design are omitted."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 2,
+      "split": "provided_test",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "c9b89250b3f1c4feb86346c334c1ed8ae75d59ce70fcf8ef32651bef22b1fe4b",
+      "response_sha256": "4c01b7e8bd3b25aaed83a65c3a9c29dd4e98b47826ced495c03d0ee94dd49604",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "после покупки",
+          "reason": "Acquisition was narrowed to purchase."
+        }
+      ],
+      "warnings": [
+        "Late registration replaces evasion; ecological fee is not named and funding is ambiguous."
+      ],
+      "coverage_concerns": [
+        "Ecological owner fee, lawmakers rationale, and shelter design are omitted."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 2,
+      "split": "provided_test",
+      "style": 1,
+      "variant": "lora_v2",
+      "source_sha256": "c9b89250b3f1c4feb86346c334c1ed8ae75d59ce70fcf8ef32651bef22b1fe4b",
+      "response_sha256": "5d8be0fe4a7e6c3298074e3e75d428295ecd31ca9cef8fb02a3ee733dfa1d04f",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "Вырученные средства планируется направить",
+          "reason": "The ecological owner fee is omitted; proceeds now refer to the immediately preceding fines, changing the money source."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Ecological owner fee omitted; this also causes funding-source contradiction."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 2,
+      "split": "provided_test",
+      "style": 2,
+      "variant": "lora_v2",
+      "source_sha256": "c9b89250b3f1c4feb86346c334c1ed8ae75d59ce70fcf8ef32651bef22b1fe4b",
+      "response_sha256": "31392516c80a2a46be6a6c110302b0f6410c33e2939aa7a386cb9bf684d9514b",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "Вырученные средства планируется направить",
+          "reason": "The source of shelter funding was the ecological owner fee; after omitting it this refers to fines."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Ecological owner fee, lawmakers rationale, and shelter design omitted."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 3,
+      "split": "provided_test",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "fa3f756cd466b55ba6aff77613cd0e929147516f3675e2bf730376df2dc145dd",
+      "response_sha256": "9e4856287f30e4616e6bfa6d6d38186d40c4924be20bd83aff2d417ecfd4ec5c",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "Все дополнительные сборы перекладываются на курьеров",
+          "reason": "Source says fees are paid to couriers as bonuses, not imposed on them."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 3,
+      "split": "provided_test",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "fa3f756cd466b55ba6aff77613cd0e929147516f3675e2bf730376df2dc145dd",
+      "response_sha256": "d99c0a453783d13518b30f6b913296422f88062db6179633af29f03e3a84177a",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "курьеры могут получать до 100% надбавки",
+          "reason": "A 1.5–2x customer delivery price does not establish a 100% courier wage bonus."
+        }
+      ],
+      "warnings": [
+        "Loss of named attribution for consumer affordability concern; may increase price becomes will increase."
+      ],
+      "coverage_concerns": [
+        "Consumer organisation attribution and check-plus-bonus relationship are weakened."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 3,
+      "split": "provided_test",
+      "style": 1,
+      "variant": "lora_v2",
+      "source_sha256": "fa3f756cd466b55ba6aff77613cd0e929147516f3675e2bf730376df2dc145dd",
+      "response_sha256": "fbbaa9ba14250acece262f410c631bcf2b740b267380cb4ab261fc4d631b9eb0",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Announced change becomes a future announcement (объявят); press-office attribution is weakened."
+      ],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 3,
+      "split": "provided_test",
+      "style": 2,
+      "variant": "lora_v2",
+      "source_sha256": "fa3f756cd466b55ba6aff77613cd0e929147516f3675e2bf730376df2dc145dd",
+      "response_sha256": "a483b0d24de5d36fb1ab9b99c84433f4656995f9b4edfa05272eca13e3a0048c",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Announced change becomes future announcement; strong weather wording is unnatural."
+      ],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 4,
+      "split": "provided_test",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "ceca83bec43e9dbb1f9262d2eb185130be11b8d21311be35a9efa020fd3952e0",
+      "response_sha256": "9dd83d199732ec426c0c493ee9e85cd897b6bdc9475aed73ef3ee095de07724a",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "без контакта с внешним миром",
+          "reason": "Source restricts absence to direct visual and physical contact, not all communication."
+        },
+        {
+          "severity": "critical",
+          "quote": "данные показали влияние",
+          "reason": "Collected data about effects is strengthened into an established finding."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Ground-based setting and lunar-orbit task omitted."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 4,
+      "split": "provided_test",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "ceca83bec43e9dbb1f9262d2eb185130be11b8d21311be35a9efa020fd3952e0",
+      "response_sha256": "9984e30a172bc5030b9d5d504c4b7f92ecd9d5c3695215a8589b8afd093c0d03",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "без связи с миром",
+          "reason": "Communication was not stated to be absent."
+        },
+        {
+          "severity": "critical",
+          "quote": "данные показали влияние",
+          "reason": "Collection of data is not an established finding."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Six scientists appears only in heading; ground setting and lunar orbit omitted."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 4,
+      "split": "provided_test",
+      "style": 1,
+      "variant": "lora_v2",
+      "source_sha256": "ceca83bec43e9dbb1f9262d2eb185130be11b8d21311be35a9efa020fd3952e0",
+      "response_sha256": "9aa697f309b78f3aa7eabee9e11474f50f16144caf185207c93e849a0be6dd8e",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 4,
+      "split": "provided_test",
+      "style": 2,
+      "variant": "lora_v2",
+      "source_sha256": "ceca83bec43e9dbb1f9262d2eb185130be11b8d21311be35a9efa020fd3952e0",
+      "response_sha256": "74f7a2228d776dc673dd2d41cd7ca5741547b0c1d583124c5d17721fe9722377",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "без контакта с внешним миром",
+          "reason": "Heading broadens absence of direct physical/visual contact; body qualifies it, but does not repair the heading."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "SIRIUS-23 name and institute omitted."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 5,
+      "split": "provided_test",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "8f4d322faf44f1210034632630ad92d623108b36d546525bbb115a5f02f25925",
+      "response_sha256": "208a1426af31f4b44ce57c9045a8b43403481667da58348dd6375927a00a8bd9",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "запретах на жилье под 28 м²",
+          "reason": "Source describes initiatives about prohibiting design, not existing prohibitions on housing."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "MKAD-specific geography, record share, and design-only proposed ban are lost."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 5,
+      "split": "provided_test",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "8f4d322faf44f1210034632630ad92d623108b36d546525bbb115a5f02f25925",
+      "response_sha256": "091c8a08973981a5c410a45d2e10af840c39c15f1356910636b8ba06570c18ff",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "самой популярной категорией",
+          "reason": "A record share of up to one third within a budget segment does not establish first place."
+        },
+        {
+          "severity": "critical",
+          "quote": "Спрос растёт",
+          "reason": "Source says high demand persists, not that demand grows."
+        },
+        {
+          "severity": "critical",
+          "quote": "запреты на жилье мельче 28 м²",
+          "reason": "An initiative about design becomes an existing housing prohibition."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Record share and design-only proposed restriction lost; experts attribution omitted."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 5,
+      "split": "provided_test",
+      "style": 1,
+      "variant": "lora_v2",
+      "source_sha256": "8f4d322faf44f1210034632630ad92d623108b36d546525bbb115a5f02f25925",
+      "response_sha256": "a02793eb43b04e2561b67c8fbed9744034ec46c86d147f1fe86d5dac9ab73f58",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": 5,
+      "split": "provided_test",
+      "style": 2,
+      "variant": "lora_v2",
+      "source_sha256": "8f4d322faf44f1210034632630ad92d623108b36d546525bbb115a5f02f25925",
+      "response_sha256": "73a03697c6c633057f8b198bb7a58fa0fd558970ade4e4eded61ad119b53be15",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "самой популярной категорией",
+          "reason": "No ranking of popularity is established by the source."
+        },
+        {
+          "severity": "critical",
+          "quote": "запрету жилых помещений",
+          "reason": "A proposed prohibition on design becomes an existing prohibition on housing."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_01",
+      "split": "fresh_regression",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "7bb8f8ca999c620fb2d193e2d31375c4cd6738acf9f3b27bac08393142b60ada",
+      "response_sha256": "b1b63806f476e5a2cab7754c885195a1129b06ad7b2acbc23ac5d4b05bdc6120",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "650 rubles is not locally labelled preliminary, although final-price uncertainty is preserved."
+      ],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_01",
+      "split": "fresh_regression",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "7bb8f8ca999c620fb2d193e2d31375c4cd6738acf9f3b27bac08393142b60ada",
+      "response_sha256": "c8df98fb73650514659d41e26bd437b56f1e0ab52054cd6610047fdb8caae736",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Planned opening becomes conditional will open; condition remains explicit."
+      ],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_01",
+      "split": "fresh_regression",
+      "style": 1,
+      "variant": "lora_v2",
+      "source_sha256": "7bb8f8ca999c620fb2d193e2d31375c4cd6738acf9f3b27bac08393142b60ada",
+      "response_sha256": "3f13611805a7d0d399b80c647824e419205df578e02e2f3d7027b9da6023f26e",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_01",
+      "split": "fresh_regression",
+      "style": 2,
+      "variant": "lora_v2",
+      "source_sha256": "7bb8f8ca999c620fb2d193e2d31375c4cd6738acf9f3b27bac08393142b60ada",
+      "response_sha256": "408a8346e128b060fbb99ae410d712ebab07ef0175e86ffb65b0fa159d51b535",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Heading says will open without planned status or condition; body preserves the condition."
+      ],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_02",
+      "split": "fresh_regression",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "cbad3830b2b9852206c102a769f0c89ac15d6202c008c2b929e69d68e6aa286a",
+      "response_sha256": "e307ff72f709bc54f9c100950b45edd262a6f841654e3c5844e05c0a60ab09a1",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_02",
+      "split": "fresh_regression",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "cbad3830b2b9852206c102a769f0c89ac15d6202c008c2b929e69d68e6aa286a",
+      "response_sha256": "b6803a696a11b1149761db5e2fac62a982d4beb9726f4c44b891785a090ccc73",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_02",
+      "split": "fresh_regression",
+      "style": 1,
+      "variant": "lora_v2",
+      "source_sha256": "cbad3830b2b9852206c102a769f0c89ac15d6202c008c2b929e69d68e6aa286a",
+      "response_sha256": "5537813362fe54197134f11e42cc415d6dec4905fd85a30ce2e25d7be3e97dcc",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_02",
+      "split": "fresh_regression",
+      "style": 2,
+      "variant": "lora_v2",
+      "source_sha256": "cbad3830b2b9852206c102a769f0c89ac15d6202c008c2b929e69d68e6aa286a",
+      "response_sha256": "d0de82969e13d1cfae7803c8d2d7ef861f779faeb3f86fbf4feb22e0fc0069ae",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_03",
+      "split": "fresh_regression",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "eb12019281611d1e5f9f1f6d4fde5b876bdf3558acac5fcf5a5346b1528a4a86",
+      "response_sha256": "4d7384ede8c0da229a3dcf09b2fc90f4ff9fc1c17cc77d93416817b9f5a262fe",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Reached (достигла) can imply a trend absent from source."
+      ],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_03",
+      "split": "fresh_regression",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "eb12019281611d1e5f9f1f6d4fde5b876bdf3558acac5fcf5a5346b1528a4a86",
+      "response_sha256": "05742a74456273ab906b36f661e2c2aaff34315fb2f6076b0ddaa5594e0b0d19",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_03",
+      "split": "fresh_regression",
+      "style": 1,
+      "variant": "lora_v2",
+      "source_sha256": "eb12019281611d1e5f9f1f6d4fde5b876bdf3558acac5fcf5a5346b1528a4a86",
+      "response_sha256": "bb46f5ee2bab4b5519d1e9ef6029d58fe9be50e673dd7f161d4b2319f23b0c18",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_03",
+      "split": "fresh_regression",
+      "style": 2,
+      "variant": "lora_v2",
+      "source_sha256": "eb12019281611d1e5f9f1f6d4fde5b876bdf3558acac5fcf5a5346b1528a4a86",
+      "response_sha256": "9898087359e3abcbe77ae6377dd01a6ed71ded3ed8f93fca7d48e398b5a03161",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "средняя комната в аренде стоит 14 500",
+          "reason": "Heading suggests an average price whereas source gives a median. Ambiguous wording needs human adjudication; body correctly says median."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_04",
+      "split": "fresh_regression",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "8e9261116630f402bef30f426fac0d24d14ee79363d65de1d77971546e63de23",
+      "response_sha256": "8d3c92a3e8673732ddfd1279cc439bd66076fabc8172008a870d8fb1237e581e",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Uncalculated customer-price change paraphrase is ambiguous; proposed status preserved."
+      ],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_04",
+      "split": "fresh_regression",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "8e9261116630f402bef30f426fac0d24d14ee79363d65de1d77971546e63de23",
+      "response_sha256": "d7359eb6557b89274a71caa087c8884a867898af5b53a9605c6f763d74cdd3eb",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "ассоциация не планировала",
+          "reason": "Not calculating a possible fee change does not mean not planning it."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_04",
+      "split": "fresh_regression",
+      "style": 1,
+      "variant": "lora_v2",
+      "source_sha256": "8e9261116630f402bef30f426fac0d24d14ee79363d65de1d77971546e63de23",
+      "response_sha256": "2b34b084c44ed0d5de7cb9ec02f044faea3c3f9c064d443a1143d4340592d67a",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_04",
+      "split": "fresh_regression",
+      "style": 2,
+      "variant": "lora_v2",
+      "source_sha256": "8e9261116630f402bef30f426fac0d24d14ee79363d65de1d77971546e63de23",
+      "response_sha256": "c489d3c249dc9496496fc2cf0cfa5ec9ea200cdd4a2c2627559789b5494ba8a0",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_05",
+      "split": "fresh_regression",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "6619007378db775d5714fe4c884f624f92510fd308fb19906251a0b9c595daad",
+      "response_sha256": "42470f9887cb8f163f50611a33c4787a9fde5680ee0c07f6252103c85314c9a5",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_05",
+      "split": "fresh_regression",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "6619007378db775d5714fe4c884f624f92510fd308fb19906251a0b9c595daad",
+      "response_sha256": "de8c84dcd99ba84e55daf1c22d9f010311c634dc15ae09b9e87f36e9877027da",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "сократится на 7%",
+          "reason": "Possible reduction of up to 7% is replaced with an exact forecast of 7%."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_05",
+      "split": "fresh_regression",
+      "style": 1,
+      "variant": "lora_v2",
+      "source_sha256": "6619007378db775d5714fe4c884f624f92510fd308fb19906251a0b9c595daad",
+      "response_sha256": "85602a9df9185aa079957186d057ce2833b1cc7f5711e8cbadd5abc4918b9464",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Expected possible reduction becomes expected reduction; up-to bound and lack of confirmed result retained."
+      ],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_05",
+      "split": "fresh_regression",
+      "style": 2,
+      "variant": "lora_v2",
+      "source_sha256": "6619007378db775d5714fe4c884f624f92510fd308fb19906251a0b9c595daad",
+      "response_sha256": "499bd3aca3ee1a80c3f8ee4fb6f957a9029b864b4ecef4f2bdb29d94505bc995",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Installation becomes ongoing implementation; possibility weakened while up-to bound and uncertainty retained."
+      ],
+      "coverage_concerns": [],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_06",
+      "split": "fresh_regression",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "91e584e41d7e642c38ea58c1aa848985171da424f8b53f889e6ac30b1170fa69",
+      "response_sha256": "28f3641bcd23e7d2a02e71eb4641679dce5d697175c964c43ca830b115d67b75",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Only new appointments was shortened to appointments; already booked patients remain but acceptance is not explicit."
+      ],
+      "coverage_concerns": [
+        "Only new appointments, referral qualification and inclusive end date are weakened or omitted."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_06",
+      "split": "fresh_regression",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "91e584e41d7e642c38ea58c1aa848985171da424f8b53f889e6ac30b1170fa69",
+      "response_sha256": "1e1172298c293b187480cf16e6bdca690529b116a4c3ce1783f1bc1523b4d474",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Only new appointments was shortened to appointments; patient-acceptance wording is unclear."
+      ],
+      "coverage_concerns": [
+        "Only new appointments, referral qualification and inclusive end date are weakened or omitted."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_06",
+      "split": "fresh_regression",
+      "style": 1,
+      "variant": "lora_v2",
+      "source_sha256": "91e584e41d7e642c38ea58c1aa848985171da424f8b53f889e6ac30b1170fa69",
+      "response_sha256": "e92d9c4ccc7adbc3a2d865bc6994c4448ac1d7c5fa230a0a323f7c2d5f19d228",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Already closed changes to will close; inclusive date boundary omitted."
+      ],
+      "coverage_concerns": [
+        "Explicit inclusive end date omitted."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    },
+    {
+      "id": "new_06",
+      "split": "fresh_regression",
+      "style": 2,
+      "variant": "lora_v2",
+      "source_sha256": "91e584e41d7e642c38ea58c1aa848985171da424f8b53f889e6ac30b1170fa69",
+      "response_sha256": "7fc3c1a062b1b34db269d1f0fcdfaf18449a9d80df2ffca52cf058918d87c6ad",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Already closed changes to will close; heading omits new appointments and body contains a grammatical error."
+      ],
+      "coverage_concerns": [
+        "Explicit inclusive end date omitted."
+      ],
+      "reviewed": true,
+      "review_origin": "Codex AI semantic comparison; not independent human review"
+    }
+  ]
+}

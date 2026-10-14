@@ -1,0 +1,6 @@
+{
+  "reason": "Empty LoRA financial outputs; investigate inference precision before exposing fresh regression sources",
+  "records": 14,
+  "provided_only": true,
+  "raw_preserved": true
+}

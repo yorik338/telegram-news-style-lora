@@ -1,0 +1,37 @@
+{
+  "upstream": {
+    "repository": "https://github.com/karansag/style-lora",
+    "commit": "f0424031fa9c0c668997f6d3f51f8297ec3569d6",
+    "license": "MIT",
+    "files": {
+      "LICENSE": "c013188e7806e27cc46b1a8eb3ffe548806c00f5282de35e01d918fbc4c02f9b",
+      "README.md": "48d5fabf560e2ecad93414473d9a6a1bd566734bb694936decdcf0bce1f99672",
+      "scripts/build_style_pairs.py": "f52fecc7d9d7b2fa3401e63cde8964835915a70c6f4db17aedb0373904f55338",
+      "scripts/train_lora.py": "925d16f386eb263bb2cdb75933e04c31dd06759adb7e8fbc9f664d40ab12c63a",
+      "scripts/gen_samples.py": "c9d4df740707ea872393aaf7ab90f6caa46147357de7664113b71386d52da0ba",
+      "scripts/eval_style.py": "f35ca647dea77064f4040354a260a646c9b8cce3b255028dc526fee35288a039",
+      "scripts/prompts.py": "c111a77ef232c985495847cc3c5d4392215f081d762b78facd65b1241e1488c1"
+    },
+    "source_scripts_executed": false
+  },
+  "base": {
+    "alias": "qwen3_4b",
+    "model": "unsloth/Qwen3-4B-Instruct-2507-bnb-4bit",
+    "revision": "f12db89cd5156e090618dded9b4367f23f8f3b33",
+    "weight_files": [
+      {
+        "name": "model.safetensors",
+        "size": 2653133894,
+        "sha256": "f632ab95da1d8f307237094aca7c7dfa9e416b6d2f87bdd8ecda6dadfedb204d"
+      }
+    ]
+  },
+  "original_train_sha256": "7365374594e37a2fdafa8027eca5e3ce51064c9459307cd6cd07957178f78ae5",
+  "original_validation_sha256": "6831286fd6ae0b2a03aed4a4414ff477c44ffd12a1ee3c76962eabbdfd41f6da",
+  "corpus_sha256": "a1a01aba10926de9af5da479947e3cae78418f1f795bb174603cf2db0be358ad",
+  "neutralization_system": "Перепиши данный пост нейтральным русским языком, убрав эмодзи, подпись канала, жирный шрифт, шутки и характерную манеру изложения.\nСохрани ВСЕ фактические утверждения, числа, единицы, условия, вероятности и авторство сообщений. Не добавляй сведения. Не заменяй медиану средней, расход тепла денежными расходами, неначатые работы отсутствием плана. Верни только нейтральный текст.",
+  "decoding": "greedy",
+  "semantic_review_required": true,
+  "source_of_corpus": "38 training and 10 validation rows; original 2 prompt demos excluded",
+  "original_test_and_previous_holdout_used_for_training": false
+}

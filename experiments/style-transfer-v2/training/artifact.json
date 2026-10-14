@@ -1,0 +1,14 @@
+{
+  "trained": true,
+  "path": "adapter/adapter_model.safetensors",
+  "bytes": 66127272,
+  "sha256": "5aa2b30f9bb94ce1c9c70f1947d9c405a3d36b6034edf254c301dc68ad1c2e7c",
+  "optimizer_steps": 32,
+  "best_validation_token_loss": 0.6792766504229619,
+  "base_validation_token_loss": 1.7114195758306638,
+  "tensor_count": 504,
+  "export_dtype": "FP16",
+  "max_abs_export_rounding": 7.62939453125e-06,
+  "seconds": 905.7565007996745,
+  "quality_improvement_proven": false
+}
