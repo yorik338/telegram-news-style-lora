@@ -1,0 +1,12 @@
+{
+  "selected_epoch": 2,
+  "selected_optimizer_steps": 42,
+  "selected_fp32_checkpoint_sha256": "1f6e9348e6cb6a92253aac6e4e27afc2c17a4a4071ad93ea3781ad0b65393ec4",
+  "export_sha256": "5aa7cb7cfa254cd3a7f50bd1a70ffa46ca3396e25aec843ca3e67926ae079052",
+  "previous_export_sha256": "8660c21e0140764d424373714e974ca09322474c25e044071ae5eb1df0e68b12",
+  "all_tensors_equal_selected_checkpoint_rounded_to_fp16": true,
+  "tensor_count": 504,
+  "max_abs_export_rounding": 7.62939453125e-06,
+  "export_path_correction_before_any_generation": true,
+  "evaluation_outputs_used": false
+}

@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/karansag/style-lora",
+  "commit": "f0424031fa9c0c668997f6d3f51f8297ec3569d6",
+  "license": "MIT",
+  "files": {
+    "LICENSE": "c013188e7806e27cc46b1a8eb3ffe548806c00f5282de35e01d918fbc4c02f9b",
+    "README.md": "48d5fabf560e2ecad93414473d9a6a1bd566734bb694936decdcf0bce1f99672",
+    "scripts/build_style_pairs.py": "f52fecc7d9d7b2fa3401e63cde8964835915a70c6f4db17aedb0373904f55338",
+    "scripts/train_lora.py": "925d16f386eb263bb2cdb75933e04c31dd06759adb7e8fbc9f664d40ab12c63a",
+    "scripts/gen_samples.py": "c9d4df740707ea872393aaf7ab90f6caa46147357de7664113b71386d52da0ba",
+    "scripts/eval_style.py": "f35ca647dea77064f4040354a260a646c9b8cce3b255028dc526fee35288a039",
+    "scripts/prompts.py": "c111a77ef232c985495847cc3c5d4392215f081d762b78facd65b1241e1488c1"
+  },
+  "source_scripts_executed": false
+}

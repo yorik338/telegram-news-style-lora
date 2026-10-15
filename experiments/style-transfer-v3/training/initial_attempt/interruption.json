@@ -1,0 +1,12 @@
+{
+  "stopped_utc": "2026-10-14T20:11:32.046953+00:00",
+  "reason": "Shared 8 GiB GPU became nearly full while user CS2 was running; stop only our process and restart second epoch with frozen FP16 embeddings",
+  "last_completed_step": 32,
+  "retained_checkpoint_optimizer_steps": 21,
+  "discarded_optimizer_steps": 11,
+  "weights_selected_using_evaluation": false,
+  "optimizer_state_saved": false,
+  "optimizer_restart": true,
+  "new_phase2_lr": 5e-05,
+  "original_two_epoch_plan_preserved": true
+}

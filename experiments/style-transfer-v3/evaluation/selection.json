@@ -1,0 +1,9 @@
+{
+  "fresh_fact_gate_passed": false,
+  "known_development_gate_passed": false,
+  "human_style_gate_passed": null,
+  "production_winner_selected": false,
+  "decision_ru": "На новых синтетических источниках у LoRA 2 из 16 постов с критическими замечаниями, у базы 2 из 16. На прежних источниках development у LoRA 7 из 10. Это предварительная AI-сверка, не независимый результат. Свежий набор не прошёл допуск; известные ошибки/существенные пропуски development сохраняются. Стиль человеком не оценён. Промышленный победитель не объявлен; raw-ответы не исправлялись.",
+  "no_feedback_retuning": true,
+  "no_editorial_output_edits": true
+}

@@ -1,0 +1,78 @@
+{
+  "base": {
+    "alias": "qwen3_4b",
+    "model": "unsloth/Qwen3-4B-Instruct-2507-bnb-4bit",
+    "revision": "f12db89cd5156e090618dded9b4367f23f8f3b33",
+    "weight_files": [
+      {
+        "name": "model.safetensors",
+        "size": 2653133894,
+        "sha256": "f632ab95da1d8f307237094aca7c7dfa9e416b6d2f87bdd8ecda6dadfedb204d"
+      }
+    ]
+  },
+  "upstream": {
+    "repository": "https://github.com/karansag/style-lora",
+    "commit": "f0424031fa9c0c668997f6d3f51f8297ec3569d6",
+    "license": "MIT",
+    "files": {
+      "LICENSE": "c013188e7806e27cc46b1a8eb3ffe548806c00f5282de35e01d918fbc4c02f9b",
+      "README.md": "48d5fabf560e2ecad93414473d9a6a1bd566734bb694936decdcf0bce1f99672",
+      "scripts/build_style_pairs.py": "f52fecc7d9d7b2fa3401e63cde8964835915a70c6f4db17aedb0373904f55338",
+      "scripts/train_lora.py": "925d16f386eb263bb2cdb75933e04c31dd06759adb7e8fbc9f664d40ab12c63a",
+      "scripts/gen_samples.py": "c9d4df740707ea872393aaf7ab90f6caa46147357de7664113b71386d52da0ba",
+      "scripts/eval_style.py": "f35ca647dea77064f4040354a260a646c9b8cce3b255028dc526fee35288a039",
+      "scripts/prompts.py": "c111a77ef232c985495847cc3c5d4392215f081d762b78facd65b1241e1488c1"
+    },
+    "source_scripts_executed": false
+  },
+  "method": "reviewed compact targets, supported reverse pairs, original anchors, and synthetic invariants",
+  "rank": 8,
+  "alpha": 16,
+  "dropout": 0.05,
+  "epochs": 2,
+  "lr": 0.0001,
+  "weight_decay": 0.01,
+  "seed": 42,
+  "scheduler": "cosine",
+  "warmup_steps": 3,
+  "micro_batch": 1,
+  "gradient_accumulation": 4,
+  "expected_steps": 42,
+  "train_rows": 82,
+  "unique_train_groups": 47,
+  "validation_rows": 10,
+  "max_actual_tokens": 1049,
+  "compute": "FP16",
+  "quantization": "NF4",
+  "gradient_checkpointing": true,
+  "assistant_only_loss": true,
+  "loss_equivalence_abs_difference": 0.0,
+  "trainable_parameters": 16515072,
+  "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+  "prompt_sha256": "3867994764d43896a09412f34fbe167ffd07fc4deb987acae7eaa94c46a4c3ce",
+  "data": {
+    "original_training_rows": 38,
+    "accepted_reverse_rows": 20,
+    "synthetic_training_rows": 24,
+    "train_rows": 82,
+    "validation_rows": 10,
+    "unique_train_groups": 47,
+    "files": {
+      "train.jsonl": {
+        "rows": 82,
+        "sha256": "332ced81bd790db36d6f5eda9a73f798e2357fe91d395fe712d8314dc55e3a84"
+      },
+      "validation.jsonl": {
+        "rows": 10,
+        "sha256": "3b2e10383d2cb23c0337115f413ba0f156552357380ed131abb8696b364b5092"
+      }
+    },
+    "provenance": "v2 corpus and accepted neutralizations; v3 reviewed compact targets; 12 AI-created training sources x two styles",
+    "old_test_is_now_development": true,
+    "synthetic_rows_are_not_independent_news_reporting": true
+  },
+  "script_sha256": "d73c229817893d34e8bd4f048af3cf4c7f17ed72cb4ba7d4c7e82a88dbfaa94c",
+  "inference_export_dtype": "float16; export rounding measured separately",
+  "checkpoint_selection": "minimum token-weighted validation loss; factual and style benefit require generation evaluation"
+}

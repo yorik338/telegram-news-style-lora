@@ -1,0 +1,15 @@
+{
+  "frozen_utc": "2026-10-14T20:02:54.560600+00:00",
+  "purpose": "One predefined v3 experiment after v2 diagnosis, no sweep",
+  "train_sha256": "332ced81bd790db36d6f5eda9a73f798e2357fe91d395fe712d8314dc55e3a84",
+  "validation_sha256": "3b2e10383d2cb23c0337115f413ba0f156552357380ed131abb8696b364b5092",
+  "fresh_sha256": "7fa45e9ef692424ece642085b85d59030f041675ad24fa63754ceed6e81ff233",
+  "development": "5 original test sources previously inspected; no longer independent tests",
+  "fresh": "8 new AI-created scenarios; frozen before v3 training; no output feedback or retuning; not external independent human evaluation",
+  "fact_gate": "No documented material contradiction on the fresh set, with key conditions retained; ambiguous cases explicitly reported",
+  "style_gate": "Blind human preference; zero votes cannot prove style improvement",
+  "selection": "Two epochs only, minimum original validation token loss; no evaluation-based weight selection",
+  "inference": "Same v3 prompt, pinned base, greedy decoding, max 384 tokens, base vs reloaded v3",
+  "no_post_generation_editorial_edits": true,
+  "prior_adapter_sha256": "5aa2b30f9bb94ce1c9c70f1947d9c405a3d36b6034edf254c301dc68ad1c2e7c"
+}

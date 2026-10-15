@@ -1,0 +1,12 @@
+{
+  "epoch": 1,
+  "train_loss": 0.8895755155784327,
+  "validation_token_loss": 0.568981428923632,
+  "base_validation_token_loss": 1.0469627787861548,
+  "optimizer_steps": 21,
+  "seconds": 174.62954099988565,
+  "peak_allocated_bytes": 5143877632,
+  "peak_reserved_bytes": 5519704064,
+  "original_validation_token_loss": 0.5687931549255794,
+  "precision": "frozen embeddings FP16 reevaluation"
+}

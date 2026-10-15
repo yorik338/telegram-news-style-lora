@@ -1,0 +1,21 @@
+{
+  "adapter_sha256": "5aa7cb7cfa254cd3a7f50bd1a70ffa46ca3396e25aec843ca3e67926ae079052",
+  "common_sha256": "3867994764d43896a09412f34fbe167ffd07fc4deb987acae7eaa94c46a4c3ce",
+  "chat_format_sha256": "62652616be3a983b28d748feddbc758e26f4c76eb0b88d8872f8ba5ce4fe23c9",
+  "demo_sha256": "4c2b6861eeec49d6c7c3025e492df6103772aecb2c90b9bdb1e9fa7b07aac58a",
+  "script_sha256": "7d125193cad633a2a497cc7991cb9db43b3838df95244173808847524c1508a8",
+  "fresh_sha256": "7fa45e9ef692424ece642085b85d59030f041675ad24fa63754ceed6e81ff233",
+  "provided_sha256": "2e7449ffc35d7e411abd0d4c9cdf4d20a64b0d82d93fad5b64c5698e421aeea0",
+  "started_utc": "2026-10-15T16:54:17.660104+00:00",
+  "first_attempts": true,
+  "development_sources_previously_seen": true,
+  "fresh_sources_first_attempts": true,
+  "output_editorial_edits": false,
+  "feedback_or_retuning_from_evaluation": false,
+  "max_new_tokens": 384,
+  "decoding": "greedy",
+  "inference_batch": 1,
+  "export_loaded_from_disk": true,
+  "inference_adapter_dtype": "FP16 (autocast_adapter_dtype=False)",
+  "timing_scope": "single generation; shared user GPU, not a controlled speed benchmark"
+}

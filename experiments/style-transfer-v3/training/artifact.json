@@ -1,0 +1,19 @@
+{
+  "trained": true,
+  "path": "adapter/adapter_model.safetensors",
+  "bytes": 33096456,
+  "sha256": "5aa7cb7cfa254cd3a7f50bd1a70ffa46ca3396e25aec843ca3e67926ae079052",
+  "optimizer_steps": 42,
+  "best_validation_token_loss": 0.5300808480837642,
+  "base_validation_token_loss": 1.0469627787861548,
+  "tensor_count": 504,
+  "export_dtype": "FP16",
+  "max_abs_export_rounding": 7.62939453125e-06,
+  "seconds": 382.22076999988576,
+  "lowmem_phase_seconds": 207.59123279999994,
+  "interrupted_extra_steps_not_retained": 12,
+  "quality_improvement_proven": false,
+  "selected_epoch": 2,
+  "selected_optimizer_steps": 42,
+  "export_verified_against_selected_checkpoint": true
+}

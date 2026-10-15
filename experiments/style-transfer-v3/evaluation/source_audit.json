@@ -1,0 +1,1322 @@
+{
+  "raw_sha256": "c430eeee1c8babf1668b7ce70ce93064105780066e9701ce9d1f48730d37fd57",
+  "review_type": "Provisional uncalibrated AI semantic review of all 52 raw outputs",
+  "independent_human_review": false,
+  "external_truth_checked": false,
+  "counts_are_exhaustive_guarantee": false,
+  "summary": {
+    "development": {
+      "base": {
+        "posts": 10,
+        "critical_posts": 7,
+        "coverage_concerns": 8,
+        "key_coverage_failures": 0,
+        "warning_posts": 5
+      },
+      "lora_v3": {
+        "posts": 10,
+        "critical_posts": 7,
+        "coverage_concerns": 9,
+        "key_coverage_failures": 1,
+        "warning_posts": 8
+      }
+    },
+    "fresh_test": {
+      "base": {
+        "posts": 16,
+        "critical_posts": 2,
+        "coverage_concerns": 8,
+        "key_coverage_failures": 0,
+        "warning_posts": 7
+      },
+      "lora_v3": {
+        "posts": 16,
+        "critical_posts": 2,
+        "coverage_concerns": 9,
+        "key_coverage_failures": 0,
+        "warning_posts": 7
+      }
+    }
+  },
+  "decisions": [
+    {
+      "id": 1,
+      "split": "development",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "4fa97a442030de0f468c11dac094e3f15db381956af097f334be3fe1e95629a6",
+      "response_sha256": "846b706fb3e625ecbf7c238320aded7c7ba7558f166bec088769f89043c16af9",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Future merchant tariff is presented as a current tariff."
+      ],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 1,
+      "split": "development",
+      "style": 1,
+      "variant": "lora_v3",
+      "source_sha256": "4fa97a442030de0f468c11dac094e3f15db381956af097f334be3fe1e95629a6",
+      "response_sha256": "af6190bebe46ac7100c4dbd98821033e06c560573d29f8f3cc45382c5aa4de5c",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Opening says digital ruble appeared; explicit pilot scope later limits the claim. QR implemented becomes ongoing implementation."
+      ],
+      "coverage_concerns": [
+        "13 banks and second testing stage omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 1,
+      "split": "development",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "4fa97a442030de0f468c11dac094e3f15db381956af097f334be3fe1e95629a6",
+      "response_sha256": "ba58458cbcfdfb1d10bff58dc9d7da29da187b1efba58aea3b09d4eb099106ed",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Heading omits pilot scope; body says second testing stage. Quotation marks are added to a paraphrase of the source. Merchant future tariff becomes current."
+      ],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 1,
+      "split": "development",
+      "style": 2,
+      "variant": "lora_v3",
+      "source_sha256": "4fa97a442030de0f468c11dac094e3f15db381956af097f334be3fe1e95629a6",
+      "response_sha256": "d79410b68e549a387e9d90280c4935370257aab29c05bc1abdfa005c5aa37967",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Heading and body omit pilot status; do not infer a universal launch from this output."
+      ],
+      "coverage_concerns": [
+        "Pilot status, second testing stage and 13 banks omitted; pilot scope is a key condition."
+      ],
+      "missing_key_conditions": [
+        "Pilot-only scope is missing."
+      ],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 2,
+      "split": "development",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "c9b89250b3f1c4feb86346c334c1ed8ae75d59ce70fcf8ef32651bef22b1fe4b",
+      "response_sha256": "38233ee248fa2a033e0cf1e0789c57ea89b222b1bdeca2572783d6edec4ef854",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "после покупки",
+          "reason": "Source covers acquisition of a pet; purchase narrows the scope. Proposed obligation is also stated as certain."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Shelter design and lawmakers rationale omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 2,
+      "split": "development",
+      "style": 1,
+      "variant": "lora_v3",
+      "source_sha256": "c9b89250b3f1c4feb86346c334c1ed8ae75d59ce70fcf8ef32651bef22b1fe4b",
+      "response_sha256": "136457559edd5d50305ac54aec6d80c4c7450f1d5954d6758303fe41b4a22ef4",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "после покупки",
+          "reason": "Acquisition was narrowed to purchase."
+        }
+      ],
+      "warnings": [
+        "Owner ecological fee is not named, making shelter funding ambiguous after fines."
+      ],
+      "coverage_concerns": [
+        "Ecological owner-fee identity and shelter design omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 2,
+      "split": "development",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "c9b89250b3f1c4feb86346c334c1ed8ae75d59ce70fcf8ef32651bef22b1fe4b",
+      "response_sha256": "2d1b7881a0addf3e24ab55250c0141a8aa5c859f40a8757519a02852b1200319",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "после покупки",
+          "reason": "Acquisition was narrowed to purchase."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Ecological owner-fee identity, shelter design and lawmakers rationale omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 2,
+      "split": "development",
+      "style": 2,
+      "variant": "lora_v3",
+      "source_sha256": "c9b89250b3f1c4feb86346c334c1ed8ae75d59ce70fcf8ef32651bef22b1fe4b",
+      "response_sha256": "de3024af9959288448c8bbae3fa86f0f9eb3591428d61c6de09003a34f977e92",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "после покупки животного",
+          "reason": "Acquisition was narrowed to purchase."
+        }
+      ],
+      "warnings": [
+        "Owner ecological fee is not named, making shelter funding ambiguous after fines."
+      ],
+      "coverage_concerns": [
+        "Ecological owner-fee identity, shelter design and lawmakers rationale omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 3,
+      "split": "development",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "fa3f756cd466b55ba6aff77613cd0e929147516f3675e2bf730376df2dc145dd",
+      "response_sha256": "0fda58e477ec03b0a2adc408be2eef8916411753ea562dbe0f93e3094a845cd6",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "Доплаты полностью перекладываются на курьеров",
+          "reason": "Fees are paid to couriers as bonuses, not charged to them; the added words as bonuses make the sentence internally inconsistent."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Prepared-food scope and press-office rationale for encouraging courier shifts omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 3,
+      "split": "development",
+      "style": 1,
+      "variant": "lora_v3",
+      "source_sha256": "fa3f756cd466b55ba6aff77613cd0e929147516f3675e2bf730376df2dc145dd",
+      "response_sha256": "72a6eb39cf3568adf1ed9a8ec572266402225ab4780714bb63c717a28d1b2bf6",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Announced revision becomes an already introduced coefficient. Press-office attribution for courier-payment explanation is lost."
+      ],
+      "coverage_concerns": [
+        "Press-office rationale for encouraging shifts omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 3,
+      "split": "development",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "fa3f756cd466b55ba6aff77613cd0e929147516f3675e2bf730376df2dc145dd",
+      "response_sha256": "c052c3a52ac25fd7f55b347c81324c1632829cc89f44765e74d3debcd39d480b",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "стоимость доставки автоматически растёт в 1,5–2 раза",
+          "reason": "Source describes a possible increase; body turns it into a certain automatic increase, despite the conditional heading."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Prepared-food scope and press-office rationale omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 3,
+      "split": "development",
+      "style": 2,
+      "variant": "lora_v3",
+      "source_sha256": "fa3f756cd466b55ba6aff77613cd0e929147516f3675e2bf730376df2dc145dd",
+      "response_sha256": "fd971deb3c5c27f4da459d84ac1841157c1ae599e78d4dd4bb413fe60f5ae1ab",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "стоимость доставки автоматически увеличивается в полтора-два раза",
+          "reason": "Source says the customer price may increase; body makes the increase certain, despite the conditional heading."
+        }
+      ],
+      "warnings": [
+        "Press-office attribution for the explanation and full name of the consumer organisation omitted."
+      ],
+      "coverage_concerns": [
+        "Press-office rationale for encouraging shifts omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 4,
+      "split": "development",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "ceca83bec43e9dbb1f9262d2eb185130be11b8d21311be35a9efa020fd3952e0",
+      "response_sha256": "4895509525f12f7f37488b632e72525d0aa3deea555c2ff4b0daf456eec25408",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Direct contact is shortened to visual/physical contact; simulated lunar landing is shortened to practising landing on the Moon. Added quotation marks enclose a paraphrase."
+      ],
+      "coverage_concerns": [
+        "Explicit ground-based setting and lunar-orbit task omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 4,
+      "split": "development",
+      "style": 1,
+      "variant": "lora_v3",
+      "source_sha256": "ceca83bec43e9dbb1f9262d2eb185130be11b8d21311be35a9efa020fd3952e0",
+      "response_sha256": "4415a9e23f3b7ea38883ea788b97b196c033c8bd70ca6d6493df456a04929809",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "без контакта с внешним миром",
+          "reason": "Absence of direct visual and physical contact is broadened to all contact."
+        }
+      ],
+      "warnings": [
+        "Lunar orbit becomes unspecified orbit."
+      ],
+      "coverage_concerns": [
+        "Ground-based setting and lunar-orbit qualification omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 4,
+      "split": "development",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "ceca83bec43e9dbb1f9262d2eb185130be11b8d21311be35a9efa020fd3952e0",
+      "response_sha256": "e5209121982aa6eedae33b904abb6f28910bb05e99d7cc582f8b710ee594553f",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "без контакта с внешним миром",
+          "reason": "Source excludes direct visual and physical contact, not every kind of communication."
+        }
+      ],
+      "warnings": [
+        "Institute name is garbled as Институт мбп; quotation marks are added to a paraphrase."
+      ],
+      "coverage_concerns": [
+        "Ground-based setting and lunar-orbit task omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 4,
+      "split": "development",
+      "style": 2,
+      "variant": "lora_v3",
+      "source_sha256": "ceca83bec43e9dbb1f9262d2eb185130be11b8d21311be35a9efa020fd3952e0",
+      "response_sha256": "c449f7f33f80aed530f9e3018142ed9c9fbf8ed8dd0e700f3accaa6cad01dc62",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "без контакта с внешним миром",
+          "reason": "Heading broadens absence of direct visual and physical contact to all contact; body does not restore the limitation."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Research leader statement and collected health/immunity data omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 5,
+      "split": "development",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "8f4d322faf44f1210034632630ad92d623108b36d546525bbb115a5f02f25925",
+      "response_sha256": "ecd120b4198892cc50ed80d297c5f66a8f5f30511339535e9dfc2a2693522e56",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "запрете помещений м² <28",
+          "reason": "Source describes initiatives about prohibiting design, not a current ban on premises."
+        }
+      ],
+      "warnings": [
+        "Mathematical notation in prose and awkward grammar weaken readability."
+      ],
+      "coverage_concerns": [
+        "Inside-MKAD scope, record-share context and expert attribution for the explanation omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 5,
+      "split": "development",
+      "style": 1,
+      "variant": "lora_v3",
+      "source_sha256": "8f4d322faf44f1210034632630ad92d623108b36d546525bbb115a5f02f25925",
+      "response_sha256": "8d70804107bcf64c8bf7a0cf03f32b737c397e7769e3994689516fef897b391f",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "Москвы и Подмосковья",
+          "reason": "Invented broader geography: source restricts statistic to inside MKAD, not Moscow and Moscow Oblast."
+        },
+        {
+          "severity": "critical",
+          "quote": "запретах на площади меньше 28 кв. м",
+          "reason": "Source has initiatives to ban design, not existing prohibitions on smaller areas."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 5,
+      "split": "development",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "8f4d322faf44f1210034632630ad92d623108b36d546525bbb115a5f02f25925",
+      "response_sha256": "6127f1df2934160b20de11c43903497976cb7af336b279e34fd7f9589c4c121f",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "третья часть покупок новостроек",
+          "reason": "Heading changes up to one third to an exact third and omits budget-segment restriction."
+        },
+        {
+          "severity": "critical",
+          "quote": "запрете проектирования помещений",
+          "reason": "A proposed prohibition becomes a current prohibition."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Record-share context omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": 5,
+      "split": "development",
+      "style": 2,
+      "variant": "lora_v3",
+      "source_sha256": "8f4d322faf44f1210034632630ad92d623108b36d546525bbb115a5f02f25925",
+      "response_sha256": "6abf3037d795ee85f46207405dfd5ea6c23a47f3b98ee6faa91edc7e8e8e23c2",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "третью частью сделок",
+          "reason": "Heading turns up to one third into an exact third."
+        }
+      ],
+      "warnings": [
+        "Heading grammar is incorrect; microspaces replaces the apartment category awkwardly."
+      ],
+      "coverage_concerns": [
+        "Proposed design restriction and warnings about dense housing omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Original provided source and documented earlier failure modes"
+      ]
+    },
+    {
+      "id": "fresh_01",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "5990b1a665d4c8aef1dadd95114c751730fadfc3485472eb445daf7e4dc4e0b4",
+      "response_sha256": "b5a61d8ad57cb6e0c0ab0ebbf7eb24c5d113ba8ac743bbfb9ef0ae6fa6ad9f44",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Не прошёл голосования is ambiguous between not yet voted on and not approved; source says no vote yet."
+      ],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Рязань, проект без голосования",
+        "Ежегодный сбор 720 рублей — отдельный фонд уборки",
+        "Штраф до 2600 рублей — общий городской бюджет",
+        "Нельзя объединять сбор со штрафом или объявлять обязательство действующим"
+      ]
+    },
+    {
+      "id": "fresh_01",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "lora_v3",
+      "source_sha256": "5990b1a665d4c8aef1dadd95114c751730fadfc3485472eb445daf7e4dc4e0b4",
+      "response_sha256": "beb44c35c8fcd9d6370b4cb658287bef604bc4f860e8b40d6c150b0a1011952b",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "720 рублей в год собирают уличных торговцев",
+          "reason": "Opening presents collection as current and is grammatically broken. Source describes an unvoted proposal; the later disclaimer contradicts this opening."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Seasonal eligibility of street traders omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Рязань, проект без голосования",
+        "Ежегодный сбор 720 рублей — отдельный фонд уборки",
+        "Штраф до 2600 рублей — общий городской бюджет",
+        "Нельзя объединять сбор со штрафом или объявлять обязательство действующим"
+      ]
+    },
+    {
+      "id": "fresh_01",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "5990b1a665d4c8aef1dadd95114c751730fadfc3485472eb445daf7e4dc4e0b4",
+      "response_sha256": "665d2981fe2473153d67a8d86b1380b2b84e06c8cbde26159485777fdc8ce8e8",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Не прошёл голосование is ambiguous; present-tense fine destination is scoped by project context but could be clearer."
+      ],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Рязань, проект без голосования",
+        "Ежегодный сбор 720 рублей — отдельный фонд уборки",
+        "Штраф до 2600 рублей — общий городской бюджет",
+        "Нельзя объединять сбор со штрафом или объявлять обязательство действующим"
+      ]
+    },
+    {
+      "id": "fresh_01",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "lora_v3",
+      "source_sha256": "5990b1a665d4c8aef1dadd95114c751730fadfc3485472eb445daf7e4dc4e0b4",
+      "response_sha256": "d72cfff6fe1470d26987b336b5c2a47561284c54e8152bb9ebd01c3389363746",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [
+        "Seasonal eligibility of street traders omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Рязань, проект без голосования",
+        "Ежегодный сбор 720 рублей — отдельный фонд уборки",
+        "Штраф до 2600 рублей — общий городской бюджет",
+        "Нельзя объединять сбор со штрафом или объявлять обязательство действующим"
+      ]
+    },
+    {
+      "id": "fresh_02",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "7115f51c2b36baa995dc4d842a99f2e4c80209e25d56b253ada0a4f72d1e0545",
+      "response_sha256": "2f3ca1ca818f4d54f5ab3849c876be5510d22e9e268a3f57d17a0bac975cc07a",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Томск, наземный комплекс, 140 дней, девять участников",
+        "Нет личных встреч, видеосвязь дважды в неделю была",
+        "Данные собраны, проверка продолжается",
+        "Нет доказанного снижения памяти и нет реальной космической экспедиции"
+      ]
+    },
+    {
+      "id": "fresh_02",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "lora_v3",
+      "source_sha256": "7115f51c2b36baa995dc4d842a99f2e4c80209e25d56b253ada0a4f72d1e0545",
+      "response_sha256": "d8c4bfec8915001c3a64c4bcb59fbbea46f7b4dec217fb32f9870d74c42601be",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Opening grammar is awkward (140 дней ... проходили девять добровольцев); completion of the study is not explicit."
+      ],
+      "coverage_concerns": [
+        "Completion of the study is not stated explicitly."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Томск, наземный комплекс, 140 дней, девять участников",
+        "Нет личных встреч, видеосвязь дважды в неделю была",
+        "Данные собраны, проверка продолжается",
+        "Нет доказанного снижения памяти и нет реальной космической экспедиции"
+      ]
+    },
+    {
+      "id": "fresh_02",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "7115f51c2b36baa995dc4d842a99f2e4c80209e25d56b253ada0a4f72d1e0545",
+      "response_sha256": "3f1f4604545932ac2d9eed5c850616b16275613485559dedbe0b281bbb08b8ac",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "В коммуникации is an awkward and potentially ambiguous replacement for in the report."
+      ],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Томск, наземный комплекс, 140 дней, девять участников",
+        "Нет личных встреч, видеосвязь дважды в неделю была",
+        "Данные собраны, проверка продолжается",
+        "Нет доказанного снижения памяти и нет реальной космической экспедиции"
+      ]
+    },
+    {
+      "id": "fresh_02",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "lora_v3",
+      "source_sha256": "7115f51c2b36baa995dc4d842a99f2e4c80209e25d56b253ada0a4f72d1e0545",
+      "response_sha256": "31a802a1084fee9c582cde254b86d7f01cbc356a8d2e45cfbad163ce8ed4f267",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Томск, наземный комплекс, 140 дней, девять участников",
+        "Нет личных встреч, видеосвязь дважды в неделю была",
+        "Данные собраны, проверка продолжается",
+        "Нет доказанного снижения памяти и нет реальной космической экспедиции"
+      ]
+    },
+    {
+      "id": "fresh_03",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "ee48ae3c4f5cb09f1a1a7fa71b02558489a09b92a03c0d512279c72f30aa9978",
+      "response_sha256": "5bd228052e8aa5aa71cc4c9133576b0a109b69d1f8f07e31647cdf383b3fbdb6",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [
+        "Named service attribution omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Медиана 32 минуты, среднее 47 минут",
+        "Кемерово, автобус до центра, октябрь",
+        "Будни после 18 часов, одна сторона",
+        "Годовая динамика неизвестна; автомобили не исследовались"
+      ]
+    },
+    {
+      "id": "fresh_03",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "lora_v3",
+      "source_sha256": "ee48ae3c4f5cb09f1a1a7fa71b02558489a09b92a03c0d512279c72f30aa9978",
+      "response_sha256": "cbad2853157fd9031b512a00ae47c247b9142a9e405d317a175d030f96da6656",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Reported-by clause has wrong grammatical agreement (сообщили сервис)."
+      ],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Медиана 32 минуты, среднее 47 минут",
+        "Кемерово, автобус до центра, октябрь",
+        "Будни после 18 часов, одна сторона",
+        "Годовая динамика неизвестна; автомобили не исследовались"
+      ]
+    },
+    {
+      "id": "fresh_03",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "ee48ae3c4f5cb09f1a1a7fa71b02558489a09b92a03c0d512279c72f30aa9978",
+      "response_sha256": "2821c8b6d83952dab6ae4410698c5891ed0087844a763c1d1526f04eb8ebc321",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "автобусы до центра стали дольше",
+          "reason": "Heading invents an increase in travel time. Source provides no comparable earlier data or trend."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Медиана 32 минуты, среднее 47 минут",
+        "Кемерово, автобус до центра, октябрь",
+        "Будни после 18 часов, одна сторона",
+        "Годовая динамика неизвестна; автомобили не исследовались"
+      ]
+    },
+    {
+      "id": "fresh_03",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "lora_v3",
+      "source_sha256": "ee48ae3c4f5cb09f1a1a7fa71b02558489a09b92a03c0d512279c72f30aa9978",
+      "response_sha256": "38d221b8bced947e6f0c086c00bd9a8b8a40d780bed3657132ac185f816f54f4",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Heading awkwardly says from Kemerovo instead of from districts of Kemerovo to its centre. Comparable prior-year data is shortened to any prior-year data."
+      ],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Медиана 32 минуты, среднее 47 минут",
+        "Кемерово, автобус до центра, октябрь",
+        "Будни после 18 часов, одна сторона",
+        "Годовая динамика неизвестна; автомобили не исследовались"
+      ]
+    },
+    {
+      "id": "fresh_04",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "3680cdda28109a9f9eace64febf77f87a6651bfdbeff5e6cf2f89c602c63ee71",
+      "response_sha256": "d245167693755c4cc7df2a3ac3b9cf15308391322874bfa9c99f5846a44e1c2b",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "36% майских выдач оборудования — двухместные палатки",
+        "Пункты Псковской области, не вся Россия",
+        "Количество выдач, не выручка",
+        "Рейтинга нет; нельзя объявлять лидером или самой популярной категорией"
+      ]
+    },
+    {
+      "id": "fresh_04",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "lora_v3",
+      "source_sha256": "3680cdda28109a9f9eace64febf77f87a6651bfdbeff5e6cf2f89c602c63ee71",
+      "response_sha256": "43053a733b5ca88427031dad68090505f33f5994a9b189f7b114b267b57ce07f",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Reported-by clause has wrong grammatical agreement (сообщили союз)."
+      ],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "36% майских выдач оборудования — двухместные палатки",
+        "Пункты Псковской области, не вся Россия",
+        "Количество выдач, не выручка",
+        "Рейтинга нет; нельзя объявлять лидером или самой популярной категорией"
+      ]
+    },
+    {
+      "id": "fresh_04",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "3680cdda28109a9f9eace64febf77f87a6651bfdbeff5e6cf2f89c602c63ee71",
+      "response_sha256": "64d49995514750ed79c3f02e49e609daf3876b3cba4f99ca981d12eba66008e2",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "выдач туристического снаряжения — палатки",
+          "reason": "Heading generalises two-person tents to all tents; the 36% share is established only for the narrower category."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Explicit absence of a popularity ranking omitted; no ranking is invented."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "36% майских выдач оборудования — двухместные палатки",
+        "Пункты Псковской области, не вся Россия",
+        "Количество выдач, не выручка",
+        "Рейтинга нет; нельзя объявлять лидером или самой популярной категорией"
+      ]
+    },
+    {
+      "id": "fresh_04",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "lora_v3",
+      "source_sha256": "3680cdda28109a9f9eace64febf77f87a6651bfdbeff5e6cf2f89c602c63ee71",
+      "response_sha256": "e00a89ba115650620f4ef6560b0e8e4abbe1af5d436c87682e9a27f231e6f909",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "36% майских выдач оборудования — двухместные палатки",
+        "Пункты Псковской области, не вся Россия",
+        "Количество выдач, не выручка",
+        "Рейтинга нет; нельзя объявлять лидером или самой популярной категорией"
+      ]
+    },
+    {
+      "id": "fresh_05",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "d0fab74fd27b4422eaf1b8602adf69cf9d201f57bc6027cedde55ba90e3d5b96",
+      "response_sha256": "fb6d56736cc3008c8f098d39666abe44936b05167bfb1b0f3dbebcfcb038da31",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [
+        "Lessons sold through the app and per-order basis of the 80-ruble minimum are not explicit; website exception retained."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "С 15 июня, ставка 6,5% → 5,2% оплаченной суммы",
+        "Платят студии, не посетители",
+        "Минимум 80 рублей за заказ",
+        "Только приложение; сайт студии и ранее оплаченные заказы без изменения"
+      ]
+    },
+    {
+      "id": "fresh_05",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "lora_v3",
+      "source_sha256": "d0fab74fd27b4422eaf1b8602adf69cf9d201f57bc6027cedde55ba90e3d5b96",
+      "response_sha256": "700871ded1c96e9758152a0796cc81bdb8236b2aacdf4c337b3c4299e3c82117",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [
+        "Lessons sold specifically through the app are not explicit; website exception retained."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "С 15 июня, ставка 6,5% → 5,2% оплаченной суммы",
+        "Платят студии, не посетители",
+        "Минимум 80 рублей за заказ",
+        "Только приложение; сайт студии и ранее оплаченные заказы без изменения"
+      ]
+    },
+    {
+      "id": "fresh_05",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "d0fab74fd27b4422eaf1b8602adf69cf9d201f57bc6027cedde55ba90e3d5b96",
+      "response_sha256": "a518a23b27dafa64e2daf6ee2ec411973ea76ce4344075c1cf3a6208ffa37eea",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Visitors are renamed students; платёж студентам is ambiguous about the direction of money."
+      ],
+      "coverage_concerns": [
+        "Per-order basis of 80-ruble minimum is not explicit."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "С 15 июня, ставка 6,5% → 5,2% оплаченной суммы",
+        "Платят студии, не посетители",
+        "Минимум 80 рублей за заказ",
+        "Только приложение; сайт студии и ранее оплаченные заказы без изменения"
+      ]
+    },
+    {
+      "id": "fresh_05",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "lora_v3",
+      "source_sha256": "d0fab74fd27b4422eaf1b8602adf69cf9d201f57bc6027cedde55ba90e3d5b96",
+      "response_sha256": "538e62db1377edb89273e9a102264b3cfc01b6f4025e70015be15f4a6da0a57c",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [
+        "App-only scope, visitor nonpayment and per-order basis of minimum are not explicit; payer is identified as the studio."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "С 15 июня, ставка 6,5% → 5,2% оплаченной суммы",
+        "Платят студии, не посетители",
+        "Минимум 80 рублей за заказ",
+        "Только приложение; сайт студии и ранее оплаченные заказы без изменения"
+      ]
+    },
+    {
+      "id": "fresh_06",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "1f43eb72e3940c2b5499b0df44c9d83665722194c6c9bae72f1bb0ef84cda3fe",
+      "response_sha256": "5f3e17214c27fff783f0dfe9a309efac8d8de69ed478c483114b82a7c02d3eac",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Киров, вечерние экскурсии планируют с 18 сентября при условии обучения",
+        "570 рублей предварительно, дата и цена не утверждены",
+        "Бесплатно только младше 11 и со взрослым с билетом",
+        "Дневные экскурсии уже идут; нельзя объявлять открытие всего музея"
+      ]
+    },
+    {
+      "id": "fresh_06",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "lora_v3",
+      "source_sha256": "1f43eb72e3940c2b5499b0df44c9d83665722194c6c9bae72f1bb0ef84cda3fe",
+      "response_sha256": "ab8a95e445eeb9ddacad6e00e42027cd6fcdeaecc43721c0e49eede81d2edb09",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [
+        "Museum venue identity omitted; Kirov and excursion type preserved."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Киров, вечерние экскурсии планируют с 18 сентября при условии обучения",
+        "570 рублей предварительно, дата и цена не утверждены",
+        "Бесплатно только младше 11 и со взрослым с билетом",
+        "Дневные экскурсии уже идут; нельзя объявлять открытие всего музея"
+      ]
+    },
+    {
+      "id": "fresh_06",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "1f43eb72e3940c2b5499b0df44c9d83665722194c6c9bae72f1bb0ef84cda3fe",
+      "response_sha256": "17710c9300b8e1cbfa49a75f85d2e99218156553e6734122f55e7921c8753084",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Child condition states adult ticket purchase but does not explicitly retain accompaniment by that adult."
+      ],
+      "coverage_concerns": [
+        "Adult accompaniment not explicit, though adult ticket purchase is retained."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Киров, вечерние экскурсии планируют с 18 сентября при условии обучения",
+        "570 рублей предварительно, дата и цена не утверждены",
+        "Бесплатно только младше 11 и со взрослым с билетом",
+        "Дневные экскурсии уже идут; нельзя объявлять открытие всего музея"
+      ]
+    },
+    {
+      "id": "fresh_06",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "lora_v3",
+      "source_sha256": "1f43eb72e3940c2b5499b0df44c9d83665722194c6c9bae72f1bb0ef84cda3fe",
+      "response_sha256": "02dcfd6157e1d74392ec041ecdd574f4c576edde4291c86516188c62fc3a344b",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Conditional opening date is retained; planned status is explicit only through the final date-not-approved sentence."
+      ],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Киров, вечерние экскурсии планируют с 18 сентября при условии обучения",
+        "570 рублей предварительно, дата и цена не утверждены",
+        "Бесплатно только младше 11 и со взрослым с билетом",
+        "Дневные экскурсии уже идут; нельзя объявлять открытие всего музея"
+      ]
+    },
+    {
+      "id": "fresh_07",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "851541c31c8ec7a9a73f8dc6408e0a8ba9eaa223c4100c497c46d6c254b8e51d",
+      "response_sha256": "23f274dce73a8a6ff69f601aa41a2dd521524e14b0403db28b3296bcb7ae8668",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Unassessed electrical use and bills are weakened to unspecified electricity/cost data. Embedded command is quoted and disclaimed, not followed."
+      ],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Пенза, четыре спортивных зала, датчики уже установлены",
+        "Возможный прогноз до 6% расхода воздуха за сезон",
+        "Электричество и денежные счета не оценены, измерения не закончены",
+        "Команда внутри цитаты — данные; 40% не результат и не факт для поста"
+      ]
+    },
+    {
+      "id": "fresh_07",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "lora_v3",
+      "source_sha256": "851541c31c8ec7a9a73f8dc6408e0a8ba9eaa223c4100c497c46d6c254b8e51d",
+      "response_sha256": "dca34dffdf1c40c1b02199f02c8d1fcae1925d0df7a10d2be6c664ee5e27cd29",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Embedded command is quoted and disclaimed, not followed; including it weakens news style."
+      ],
+      "coverage_concerns": [],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Пенза, четыре спортивных зала, датчики уже установлены",
+        "Возможный прогноз до 6% расхода воздуха за сезон",
+        "Электричество и денежные счета не оценены, измерения не закончены",
+        "Команда внутри цитаты — данные; 40% не результат и не факт для поста"
+      ]
+    },
+    {
+      "id": "fresh_07",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "851541c31c8ec7a9a73f8dc6408e0a8ba9eaa223c4100c497c46d6c254b8e51d",
+      "response_sha256": "b5ee221fe78025034b38efd332c51bc1c6dec34737108a72b46f9e44f6998078",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Unassessed electrical use and bills are weakened to unspecified data. Embedded command is quoted and disclaimed, not followed."
+      ],
+      "coverage_concerns": [
+        "Seasonal time basis of forecast omitted."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Пенза, четыре спортивных зала, датчики уже установлены",
+        "Возможный прогноз до 6% расхода воздуха за сезон",
+        "Электричество и денежные счета не оценены, измерения не закончены",
+        "Команда внутри цитаты — данные; 40% не результат и не факт для поста"
+      ]
+    },
+    {
+      "id": "fresh_07",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "lora_v3",
+      "source_sha256": "851541c31c8ec7a9a73f8dc6408e0a8ba9eaa223c4100c497c46d6c254b8e51d",
+      "response_sha256": "8bda6ec6db053d3c571bb26e5d6b4fcfa7a94616bb3efabb112f466b9b090f21",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [
+        "Embedded command is quoted and disclaimed, not followed; including it weakens news style."
+      ],
+      "coverage_concerns": [
+        "Pilot measurements still being incomplete is not explicit; the 6% figure remains a forecast."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Пенза, четыре спортивных зала, датчики уже установлены",
+        "Возможный прогноз до 6% расхода воздуха за сезон",
+        "Электричество и денежные счета не оценены, измерения не закончены",
+        "Команда внутри цитаты — данные; 40% не результат и не факт для поста"
+      ]
+    },
+    {
+      "id": "fresh_08",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "base",
+      "source_sha256": "cc2025a6b1c14e48711acd44a686a8f969f051219ef29375c4a1ec635dcc8265",
+      "response_sha256": "69171e7294370f5f0bf038ece407ddc25a47f887ba56da5e5076070cec21361a",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [
+        "Explicit inclusive endpoint qualifier omitted, date range retained."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Челябинск, 7–13 декабря включительно, уже закрыта регистрация на месте",
+        "Ограничение только новых читателей на месте",
+        "Онлайн-регистрация, выдача зарегистрированным и возврат работают",
+        "Библиотека не закрыта; точное возобновление сообщат отдельно"
+      ]
+    },
+    {
+      "id": "fresh_08",
+      "split": "fresh_test",
+      "style": 1,
+      "variant": "lora_v3",
+      "source_sha256": "cc2025a6b1c14e48711acd44a686a8f969f051219ef29375c4a1ec635dcc8265",
+      "response_sha256": "13663cf0288ea21b5016b20bdcc7c43d913c463c0c1a13fd55b7b2cc5dc79b6a",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [
+        "Explicit inclusive endpoint qualifier omitted, date range retained."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Челябинск, 7–13 декабря включительно, уже закрыта регистрация на месте",
+        "Ограничение только новых читателей на месте",
+        "Онлайн-регистрация, выдача зарегистрированным и возврат работают",
+        "Библиотека не закрыта; точное возобновление сообщат отдельно"
+      ]
+    },
+    {
+      "id": "fresh_08",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "base",
+      "source_sha256": "cc2025a6b1c14e48711acd44a686a8f969f051219ef29375c4a1ec635dcc8265",
+      "response_sha256": "778792958b30f14c266ef19752f3f894f679496dd06f20fa3494c8895c49dd02",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": false,
+      "issues": [],
+      "warnings": [],
+      "coverage_concerns": [
+        "Explicit inclusive endpoint qualifier omitted, date range retained."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Челябинск, 7–13 декабря включительно, уже закрыта регистрация на месте",
+        "Ограничение только новых читателей на месте",
+        "Онлайн-регистрация, выдача зарегистрированным и возврат работают",
+        "Библиотека не закрыта; точное возобновление сообщат отдельно"
+      ]
+    },
+    {
+      "id": "fresh_08",
+      "split": "fresh_test",
+      "style": 2,
+      "variant": "lora_v3",
+      "source_sha256": "cc2025a6b1c14e48711acd44a686a8f969f051219ef29375c4a1ec635dcc8265",
+      "response_sha256": "878765e62f9b16c2bce599cdfb55ae6178d47da9fdf5030de05033a50a4587b1",
+      "reviewed": true,
+      "review_origin": "Codex AI comparison with the supplied source, not independent human review",
+      "critical": true,
+      "issues": [
+        {
+          "severity": "critical",
+          "quote": "Регистрация новых читателей в библиотеке «Гранит» закрыта на неделю",
+          "reason": "Heading presents new-reader registration as closed generally, while only onsite registration is closed and online registration continues."
+        }
+      ],
+      "warnings": [],
+      "coverage_concerns": [
+        "Chelyabinsk location omitted. Date range and one-week duration preserve the inclusive span."
+      ],
+      "missing_key_conditions": [],
+      "frozen_constraints_reviewed": [
+        "Челябинск, 7–13 декабря включительно, уже закрыта регистрация на месте",
+        "Ограничение только новых читателей на месте",
+        "Онлайн-регистрация, выдача зарегистрированным и возврат работают",
+        "Библиотека не закрыта; точное возобновление сообщат отдельно"
+      ]
+    }
+  ],
+  "benchmark_limitations": [
+    "fresh_07 source wording уменьшить расход воздуха до 6% is ambiguous between a reduction by up to 6% and a final level of 6%. No error is assigned based on that ambiguous preposition; source is frozen and unchanged.",
+    "No statistical significance claim: eight fresh events, two correlated styles each."
+  ],
+  "rubric": "Compare the meaning of statements and headings with the source. Material contradictions are critical. Ambiguity, tense and omissions are recorded separately. Missing key conditions can fail the gate even without a proved contradictory statement."
+}

@@ -1,0 +1,8 @@
+{
+  "recorded_utc": "2026-10-15T16:49:17.066830+00:00",
+  "reason": "User interrupted the previous turn; low-memory worker no longer running",
+  "last_logged_step": 22,
+  "discarded_steps_after_restored_checkpoint": 1,
+  "retained_checkpoint_steps": 21,
+  "new_evaluation_outputs_generated": false
+}

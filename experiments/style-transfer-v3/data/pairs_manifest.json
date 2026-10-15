@@ -1,0 +1,21 @@
+{
+  "original_training_rows": 38,
+  "accepted_reverse_rows": 20,
+  "synthetic_training_rows": 24,
+  "train_rows": 82,
+  "validation_rows": 10,
+  "unique_train_groups": 47,
+  "files": {
+    "train.jsonl": {
+      "rows": 82,
+      "sha256": "332ced81bd790db36d6f5eda9a73f798e2357fe91d395fe712d8314dc55e3a84"
+    },
+    "validation.jsonl": {
+      "rows": 10,
+      "sha256": "3b2e10383d2cb23c0337115f413ba0f156552357380ed131abb8696b364b5092"
+    }
+  },
+  "provenance": "v2 corpus and accepted neutralizations; v3 reviewed compact targets; 12 AI-created training sources x two styles",
+  "old_test_is_now_development": true,
+  "synthetic_rows_are_not_independent_news_reporting": true
+}
